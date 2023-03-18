@@ -1,0 +1,15 @@
+.header {
+  height: 70px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid grey;
+  padding: 10px 40px;
+  z-index: 10000;
+}
+
+.link-wrapper {
+  display: flex;
+  font-size: 25px;
+  column-gap: 20px;
+}
