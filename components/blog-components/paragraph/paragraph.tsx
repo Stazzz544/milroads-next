@@ -15,7 +15,7 @@ export default function P({
   cursive = false,
   position = "left",
   introduction,
-  indent = true,
+  indent = false,
 }: PProps) {
   return (
     <h2

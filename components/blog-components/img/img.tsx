@@ -12,19 +12,20 @@ export default function Img({ bgImage, description }: ImgProps) {
     <div className={cs(styles["wrapper"])}>
       <div className={cs(styles["img"])}>
         <Image
-          alt="image"
+          alt={description || "IMG"}
           src={bgImage}
-          sizes="100vh"
-          width={100}
-          height={100}
+          width={1500}
+          height={1500}
           style={{
-            objectFit: "cover",
+            objectFit: "contain",
             position: "relative",
             height: "auto",
+            maxHeight: 800,
             width: "100%",
             borderRadius: 10,
           }}
           quality={100}
+          unoptimized
         />
       </div>
       <p className={cs(styles["description"])}>{description}</p>

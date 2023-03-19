@@ -30,6 +30,7 @@ export default function PageWrapper({
             objectFit: "cover",
           }}
           quality={100}
+          unoptimized
         />
         <div className={cs(styles["title-wrapper"])}>
           <Container>
