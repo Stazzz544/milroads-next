@@ -1,15 +1,67 @@
 .header {
-  height: 70px;
-  position: fixed;
-  right: 0;
-  left: 0;
-  border-bottom: 1px solid grey;
-  padding: 10px 40px;
-  z-index: 10000;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  padding: 100px 170px 0 130px;
 }
 
-.link-wrapper {
+.title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.burger {
+  cursor: pointer;
+  width: 45px;
+  height: 40px;
+  position: relative;
+
+  &-item {
+    position: absolute;
+    height: 5px;
+    background: #ffffff;
+    transition: all 0.3s;
+
+    &:nth-child(1) {
+      width: 100%;
+      top: 0;
+    }
+    &:nth-child(2) {
+      width: 100%;
+      top: 17px;
+    }
+    &:nth-child(3) {
+      width: 75%;
+      right: 0;
+      top: 34px;
+    }
+  }
+}
+
+.active {
+  .burger-item {
+    &:nth-child(1) {
+      transform: rotate(45deg);
+      top: 18px;
+    }
+    &:nth-child(2) {
+      width: 0px;
+    }
+    &:nth-child(3) {
+      transform: rotate(-45deg);
+      width: 100%;
+      top: 18px;
+    }
+  }
+}
+
+.logo-wrapper {
   display: flex;
-  font-size: 25px;
-  column-gap: 20px;
+  column-gap: 10px;
+  align-items: flex-end;
 }

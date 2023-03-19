@@ -1,5 +1,3 @@
-import { FC } from "react";
-
 export default function NotFound() {
   return <>404</>;
 }

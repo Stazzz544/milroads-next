@@ -1,4 +1,7 @@
+import Slider from "@/components/slider/slider";
 import Head from "next/head";
+import styles from "./index.module.scss";
+import cs from "classnames";
 
 export default function Home() {
   return (
@@ -10,7 +13,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main></main>
+      <main>
+        <div className={cs(styles["first-full-screen"])}>
+          <h1></h1>
+          <Slider />
+        </div>
+      </main>
     </>
   );
 }

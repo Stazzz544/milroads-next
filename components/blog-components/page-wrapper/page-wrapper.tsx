@@ -5,14 +5,14 @@ import { ReactNode } from "react";
 import Container from "@/components/container/container";
 
 type PageWrapperProps = {
-  bgImage: string;
+  src: string;
   title: string;
   children: ReactNode;
   part?: string;
 };
 
 export default function PageWrapper({
-  bgImage,
+  src,
   title,
   part,
   children,
@@ -22,7 +22,7 @@ export default function PageWrapper({
       <div className={cs(styles["first-screen-wrapper"])}>
         <Image
           alt="image"
-          src={bgImage}
+          src={src}
           fill
           sizes="100vh"
           className={cs(styles["image"])}
