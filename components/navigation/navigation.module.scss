@@ -1,18 +1,23 @@
 .header {
   width: 100%;
+  max-width: 1900px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   position: absolute;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 100;
-  padding: 100px 170px 0 130px;
+  padding: 100px 120px 0 60px;
 }
 
 .title {
   color: #ffffff;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 90px;
+  letter-spacing: 5px;
 }
 
 .burger {
@@ -23,7 +28,7 @@
 
   &-item {
     position: absolute;
-    height: 5px;
+    height: 4px;
     background: #ffffff;
     transition: all 0.3s;
 
@@ -31,10 +36,12 @@
       width: 100%;
       top: 0;
     }
+
     &:nth-child(2) {
       width: 100%;
       top: 17px;
     }
+
     &:nth-child(3) {
       width: 75%;
       right: 0;
@@ -49,9 +56,11 @@
       transform: rotate(45deg);
       top: 18px;
     }
+
     &:nth-child(2) {
       width: 0px;
     }
+
     &:nth-child(3) {
       transform: rotate(-45deg);
       width: 100%;

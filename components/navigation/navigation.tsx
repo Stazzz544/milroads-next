@@ -11,7 +11,7 @@ export default function Navigation() {
   return (
     <header className={cs(styles["header"])}>
       <div className={cs(styles["logo-wrapper"])}>
-        <Image priority src={Logo} height={52} width={52} alt="LOGO" />
+        <Image priority src={Logo} height={89} width={100} alt="LOGO" />
         <h1 className={cs(styles["title"])}>Milroads</h1>
       </div>
       <div

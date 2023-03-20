@@ -1,4 +1,5 @@
 import Slider from "@/components/slider/slider";
+import SectionElement from "@/components/section-element/section-element";
 import Head from "next/head";
 import styles from "./index.module.scss";
 import cs from "classnames";
@@ -15,8 +16,8 @@ export default function Home() {
 
       <main>
         <div className={cs(styles["first-full-screen"])}>
-          <h1></h1>
           <Slider />
+          <SectionElement />
         </div>
       </main>
     </>
