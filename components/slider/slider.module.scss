@@ -1,35 +1,4 @@
 .slider-wrapper {
+  height: 100vh;
   position: relative;
-
-  div {
-    height: 100vh;
-
-    button {
-      display: none !important;
-    }
-  }
-
-  ul {
-    max-width: 1660px;
-    padding: 0px 60px;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    position: absolute;
-    top: 50%;
-    display: flex !important;
-    row-gap: 20px;
-    flex-direction: column;
-    z-index: 10;
-    background: none;
-
-    li {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      border: solid 1px #fff;
-      cursor: auto;
-      transition: all 3s;
-    }
-  }
 }

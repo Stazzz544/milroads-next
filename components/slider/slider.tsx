@@ -12,30 +12,28 @@ import SliderImage from "./slider-image";
 import Icon from "../../public/icons/pin.svg";
 import SliderItem from "./slider-item";
 
-const settings = {
-  dots: true,
-  fade: true,
-  infinite: true,
-  autoplaySpeed: 3000,
-  autoplay: true,
-  speed: 1000,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-};
+// const settings = {
+//   dots: true,
+//   fade: true,
+//   infinite: true,
+//   autoplaySpeed: 3000,
+//   autoplay: true,
+//   speed: 1000,
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+// };
 
 export default function Slider() {
   return (
     <div className={cs(styles["slider-wrapper"])}>
-      <SlickSlider {...settings}>
-        <SliderItem title="India" description="South Goa" image={image_1} />
-        <SliderItem title="Holland" description="Amsterdam" image={image_2} />
-        <SliderItem
-          title="Mexico"
-          description="Punta Cancun lighthouse"
-          image={image_3}
-        />
-        <SliderItem title="Turkey" description="Kappadokien" image={image_4} />
-      </SlickSlider>
+      <SliderItem title="India" description="South Goa" image={image_1} />
+      <SliderItem title="Holland" description="Amsterdam" image={image_2} />
+      <SliderItem
+        title="Mexico"
+        description="Punta Cancun lighthouse"
+        image={image_3}
+      />
+      <SliderItem title="Turkey" description="Kappadokien" image={image_4} />
     </div>
   );
 }

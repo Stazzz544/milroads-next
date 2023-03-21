@@ -1,9 +1,142 @@
+.slide {
+  opacity: 0;
+  animation-name: slider;
+  animation-fill-mode: forwards;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  will-change: opacity;
+}
+
+.slide-indicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  position: absolute;
+  left: 175px;
+  top: 50%;
+  background-color: transparent;
+  will-change: background-color;
+  z-index: 15;
+
+  animation-name: sliderIndicator;
+  animation-fill-mode: forwards;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  will-change: opacity;
+}
+
 .img-wrapper {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  &:nth-child(1) {
+    .slide {
+      animation-delay: 0s;
+    }
+
+    .slide-indicator {
+      top: calc(50% - 60px);
+      animation-delay: 0s;
+    }
+  }
+  &:nth-child(2) {
+    .slide {
+      animation-delay: 5s;
+    }
+
+    .slide-indicator {
+      top: calc(50% - 20px);
+      animation-delay: 5s;
+    }
+  }
+  &:nth-child(3) {
+    .slide {
+      animation-delay: 10s;
+    }
+
+    .slide-indicator {
+      top: calc(50% + 20px);
+      animation-delay: 10s;
+    }
+  }
+  &:nth-child(4) {
+    .slide {
+      animation-delay: 15s;
+    }
+
+    .slide-indicator {
+      top: calc(50% + 60px);
+      animation-delay: 15s;
+    }
+  }
+}
+
+@keyframes slider {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+  32% {
+    opacity: 1;
+  }
+  37% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes sliderIndicator {
+  0% {
+    background-color: transparent;
+  }
+
+  10% {
+    background-color: #ffffff;
+  }
+
+  32% {
+    background-color: #ffffff;
+  }
+
+  37% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: transparent;
+  }
 }
 
 .container {
+  height: 100vh;
   margin: 0 auto;
+  max-width: 1900px;
+  position: relative;
+}
+
+.indicator-container {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indicator-wrapper {
+  flex: 1 1;
   max-width: 1900px;
   position: relative;
 }
