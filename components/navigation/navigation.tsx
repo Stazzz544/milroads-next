@@ -6,23 +6,25 @@ import Logo from "../../public/icons/road.svg";
 import Image from "next/image";
 
 export default function Navigation() {
-  const [isActive, setActive] = useState(false);
+	const [isActive, setActive] = useState(false);
 
-  return (
-    <header className={cs(styles["header"])}>
-      <div className={cs(styles["logo-wrapper"])}>
-        <Image priority src={Logo} height={89} width={100} alt="LOGO" />
-        <h1 className={cs(styles["title"])}>Milroads</h1>
-      </div>
-      <div
-        onClick={() => setActive((prev) => !prev)}
-        className={cs(styles["burger"], { [styles["active"]]: isActive })}
-      >
-        <span className={cs(styles["burger-item"])}></span>
-        <span className={cs(styles["burger-item"])}></span>
-        <span className={cs(styles["burger-item"])}></span>
-      </div>
-      {/* <nav className={cs(styles[''])}>
+	return (
+		<header className={cs(styles["header"])}>
+			<div className={cs(styles["logo-wrapper"])}>
+				<div className={cs(styles["svg-wrapper"])}>
+					<Image priority src={Logo} fill alt="LOGO" />
+				</div>
+				<h1 className={cs(styles["title"])}>Milroads</h1>
+			</div>
+			<div
+				onClick={() => setActive((prev) => !prev)}
+				className={cs(styles["burger"], { [styles["active"]]: isActive })}
+			>
+				<span className={cs(styles["burger-item"])}></span>
+				<span className={cs(styles["burger-item"])}></span>
+				<span className={cs(styles["burger-item"])}></span>
+			</div>
+			{/* <nav className={cs(styles[''])}>
         <ul className={cs(styles["link-wrapper"])}>
           <li>
             <Link href="/">Home</Link>
@@ -35,6 +37,6 @@ export default function Navigation() {
           </li>
         </ul>
       </nav> */}
-    </header>
-  );
+		</header>
+	);
 }
