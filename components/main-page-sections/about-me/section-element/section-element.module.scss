@@ -12,9 +12,14 @@
   column-gap: 40px;
 }
 
+.flex-wrapper.left {
+  flex-direction: row-reverse;
+}
+
 .img-wrapper {
   flex: 1 1 40%;
-  background: #fff;
+  position: relative;
+  //max-height: 300px;
 }
 
 .text-wrapper {
@@ -39,6 +44,17 @@
     top: auto;
     bottom: 0;
     width: 60%;
+  }
+}
+
+.text-wrapper.left {
+  border-right: none;
+  border-left: 3px rgb(255, 169, 11) solid;
+  padding: 20px 0px 40px 60px;
+  &::after,
+  &::before {
+    left: 0;
+    right: auto;
   }
 }
 

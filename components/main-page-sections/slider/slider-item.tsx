@@ -1,6 +1,6 @@
 import SliderImage from "./slider-image";
 import Image from "next/image";
-import Icon from "../../public/icons/pin.svg";
+import Icon from "../../../public/icons/pin.svg";
 import styles from "./slider-item.module.scss";
 import cs from "classnames";
 

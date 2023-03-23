@@ -1,8 +1,9 @@
-import Slider from "@/components/slider/slider";
-import SectionElement from "@/components/section-element/section-element";
+import Slider from "@/components/main-page-sections/slider/slider";
 import Head from "next/head";
 import styles from "./index.module.scss";
 import cs from "classnames";
+import AboutMe from "@/components/main-page-sections/about-me/about-me";
+import ClassicTravel from "@/components/main-page-sections/travel/classic-travel";
 
 export default function Home() {
   return (
@@ -17,7 +18,8 @@ export default function Home() {
       <main>
         <div className={cs(styles["first-full-screen"])}>
           <Slider />
-          <SectionElement />
+          <AboutMe />
+          <ClassicTravel />
         </div>
       </main>
     </>
