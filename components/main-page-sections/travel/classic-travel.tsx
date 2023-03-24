@@ -22,13 +22,13 @@ const locations = [
     country: "Шри-Ланка",
     location: "Карелия, Ладожское озеро",
     description: "Зимний двухдневный поход вдоль побережья Ладожского озера",
-    img: four,
+    img: three,
   },
   {
     country: "ОАЭ",
     location: "Мечеть шейха Зайда, Абу-Даби",
     description: "Зимний двухдневный поход вдоль побережья Ладожского озера",
-    img: three,
+    img: four,
   },
 ];
 

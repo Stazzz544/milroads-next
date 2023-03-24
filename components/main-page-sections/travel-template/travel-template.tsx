@@ -19,7 +19,19 @@ export default function TravelTemplate({ locations }: TravelTemplate) {
     <div className={cs(styles["wrapper"])}>
       <div className={cs(styles["grid-wrapper"])}>
         {locations.map(({ img, country, description, location }, index) => (
-          <div key={index} className={cs(styles["img-wrapper"])}>
+          <div key={index} className={cs(styles["card-wrapper"])}>
+            <div className={cs(styles["card-content"])}>
+              <Image
+                alt="image"
+                src={img}
+                fill
+                style={{
+                  objectFit: "cover",
+                }}
+                quality={100}
+                unoptimized
+              />
+            </div>
             <div className={cs(styles["location-wrapper"])}>
               <div className={cs(styles["location-empty-block"])}></div>
               <div className={cs(styles["location-info-wrapper"])}>
@@ -31,16 +43,6 @@ export default function TravelTemplate({ locations }: TravelTemplate) {
                 </p>
               </div>
             </div>
-            <Image
-              alt="image"
-              src={img}
-              fill
-              style={{
-                objectFit: "cover",
-              }}
-              quality={100}
-              unoptimized
-            />
           </div>
         ))}
       </div>
