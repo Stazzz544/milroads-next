@@ -1,7 +1,7 @@
 import styles from "./travel-template.module.scss";
 import cs from "classnames";
 
-import Container from "@/components/blog-components/container/container";
+import Container from "@/components/container/container";
 import Card, { CardProps } from "@/components/card/card";
 import { SlideUp } from "@/components/slide-up/slide-up";
 

@@ -2,7 +2,7 @@ import styles from "./section-element.module.scss";
 import cs from "classnames";
 import { replaceWithBr } from "@/utils/replace-with-br";
 import Image from "next/image";
-import Container from "@/components/blog-components/container/container";
+import Container from "@/components/container/container";
 
 type SectionElementProps = {
   orientation?: "left" | "right";
