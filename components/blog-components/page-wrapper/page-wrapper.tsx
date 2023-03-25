@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./page-wrapper.module.scss";
 import cs from "classnames";
 import { ReactNode } from "react";
-import Container from "@/components/container/container";
+import Container from "../container/container";
 
 type PageWrapperProps = {
   src: string;
