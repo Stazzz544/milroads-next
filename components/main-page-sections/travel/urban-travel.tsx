@@ -2,7 +2,7 @@ import cs from "classnames";
 import TravelTemplate from "./travel-template/travel-template";
 import one from "./assets/urban-travel/1.jpg";
 import two from "./assets/urban-travel/2.jpg";
-import three from "./assets/urban-travel/3.jpg";
+import three from "./assets/urban-travel/4.jpg";
 
 const locations = [
   {
