@@ -1,0 +1,19 @@
+.wrapper {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100px);
+  transition: transform 0.4s cubic-bezier(0, 0, 0.4, 1),
+    opacity 0.4s cubic-bezier(0, 0, 0.4, 1),
+    visibility 0.4s cubic-bezier(0, 0, 0.4, 1);
+  will-change: transform, opacity, visibility;
+  display: inherit;
+  gap: inherit;
+  flex: inherit;
+  justify-content: inherit;
+}
+
+.animated {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}

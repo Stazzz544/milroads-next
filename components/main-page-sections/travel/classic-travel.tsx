@@ -1,9 +1,9 @@
 import cs from "classnames";
-import TravelTemplate from "../travel-template/travel-template";
-import one from "./1.jpg";
-import two from "./2.jpg";
-import three from "./3.jpg";
-import four from "./4.jpg";
+import TravelTemplate from "./travel-template/travel-template";
+import one from "./assets/classic-travel/1.jpg";
+import two from "./assets/classic-travel/2.jpg";
+import three from "./assets/classic-travel/3.jpg";
+import four from "./assets/classic-travel/4.jpg";
 
 const locations = [
   {
@@ -18,12 +18,12 @@ const locations = [
     description: "Зимний двухдневный поход вдоль побережья Ладожского озера",
     img: two,
   },
-  {
-    country: "Шри-Ланка",
-    location: "Карелия, Ладожское озеро",
-    description: "Зимний двухдневный поход вдоль побережья Ладожского озера",
-    img: three,
-  },
+  // {
+  //   country: "Шри-Ланка",
+  //   location: "Карелия, Ладожское озеро",
+  //   description: "Зимний двухдневный поход вдоль побережья Ладожского озера",
+  //   img: three,
+  // },
   {
     country: "ОАЭ",
     location: "Мечеть шейха Зайда, Абу-Даби",
@@ -33,5 +33,12 @@ const locations = [
 ];
 
 export default function ClassicTravel() {
-  return <TravelTemplate locations={locations} />;
+  return (
+    <TravelTemplate
+      colorScheme="grey"
+      locations={locations}
+      sectionTitle="Путешествия"
+      sectionDescription="классические, на поездах, самолётах, авто, различные походы..."
+    />
+  );
 }

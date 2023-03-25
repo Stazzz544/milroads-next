@@ -1,3 +1,32 @@
 .first-full-screen {
   height: 100vh;
 }
+
+.divider {
+  position: absolute;
+  right: 0;
+  left: 0;
+  transform: translateY(-60px);
+  height: 120px;
+}
+
+.divider.black-section {
+  background: linear-gradient(
+    0deg,
+    rgb(8, 8, 8) 50%,
+    rgb(8 8 8 / 80%) 63%,
+    rgb(8 8 9 / 50%) 82%,
+    rgba(8, 8, 8, 0) 100%
+  );
+}
+
+.divider.grey-section {
+  background: linear-gradient(
+    0deg,
+    rgba(32, 32, 32, 1) 50%,
+    rgba(32, 32, 32, 0.8323704481792717) 66%,
+    rgba(32, 32, 32, 0.6727065826330532) 75%,
+    rgba(32, 32, 32, 0.4514180672268907) 86%,
+    rgba(32, 32, 32, 0) 100%
+  );
+}

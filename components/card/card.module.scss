@@ -1,0 +1,94 @@
+.card {
+  &-wrapper {
+    position: relative;
+    transition: all 0.5s;
+    -webkit-box-shadow: 0px 39px 40px -32px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 0px 39px 40px -32px rgba(0, 0, 0, 0.62);
+    box-shadow: 0px 39px 40px -32px rgba(0, 0, 0, 0.62);
+
+    &:hover {
+      filter: brightness(1.2);
+      transform: scale(1.02);
+    }
+    &.normal {
+      height: 500px;
+    }
+    &.short {
+      height: 390px;
+    }
+  }
+
+  &-content {
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    border-left: 4px solid rgb(255, 169, 11);
+    border-right: 4px solid rgb(255, 169, 11);
+    filter: brightness(0.8);
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      height: 4px;
+      width: 15%;
+      background: rgb(255, 169, 11);
+    }
+
+    &::after {
+      top: auto;
+      left: auto;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
+
+.location {
+  &-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+  &-empty-block {
+    flex: 1 1 40%;
+  }
+
+  &-info-wrapper {
+    flex: 1 1 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &-country {
+    font-size: 20px;
+  }
+  &-location {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  &-description {
+    font-size: 15px;
+  }
+
+  &-divider {
+    margin: 0 auto;
+    width: 30px;
+    height: 2px;
+    background: #ffffff;
+  }
+}
