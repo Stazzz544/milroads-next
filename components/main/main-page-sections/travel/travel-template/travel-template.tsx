@@ -34,7 +34,7 @@ export default function TravelTemplate({
         <div className={cs(styles["section-divider"])}></div>
         <div className={cs(styles["grid-wrapper"])}>
           {locations.map((props, i) => (
-            <SlideUp rootMargin={-100 - i * 150} key={i}>
+            <SlideUp rootMargin={-100 - i * 100} key={i}>
               <Card {...props} height={height} />
             </SlideUp>
           ))}
