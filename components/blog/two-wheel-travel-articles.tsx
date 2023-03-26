@@ -6,7 +6,7 @@ export default function TwoWheelTravelArticles() {
   return (
     <div>
       <SlideUp>
-        <Card country={""} location={""} description={""} img={undefined} />
+		<div>TwoWheelTravelArticles</div>;
       </SlideUp>
     </div>
   );
