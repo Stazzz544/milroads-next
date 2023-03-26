@@ -1,13 +1,7 @@
-import Slider from "@/components/main-page-sections/slider/slider";
 import Head from "next/head";
-import styles from "./index.module.scss";
-import cs from "classnames";
-import AboutMe from "@/components/main-page-sections/about-me/about-me";
-import ClassicTravel from "@/components/main-page-sections/travel/classic-travel";
-import UrbanTravel from "@/components/main-page-sections/travel/urban-travel";
-import TwoWheelTravel from "@/components/main-page-sections/travel/two-wheel-travel";
+import Main from "@/components/main/main";
 
-export default function Home() {
+export default function MainPage() {
   return (
     <>
       <Head>
@@ -18,17 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className={cs(styles["first-full-screen"])}>
-          <Slider />
-          <div className={cs(styles["divider"], styles["black-section"])}></div>
-          <AboutMe />
-          <div className={cs(styles["divider"], styles["grey-section"])}></div>
-          <ClassicTravel />
-          <div className={cs(styles["divider"], styles["black-section"])}></div>
-          <TwoWheelTravel />
-          <div className={cs(styles["divider"], styles["grey-section"])}></div>
-          <UrbanTravel />
-        </div>
+        <Main />
       </main>
     </>
   );

@@ -1,0 +1,15 @@
+.wrapper {
+  background: black;
+  min-height: 100vh;
+}
+
+.flex {
+  &-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  &-item {
+    width: 400px;
+  }
+}

@@ -1,7 +1,7 @@
-import Img from "@/components/blog-components/img/img";
-import PageWrapper from "@/components/blog-components/page-wrapper/page-wrapper";
-import P from "@/components/blog-components/paragraph/paragraph";
-import H from "@/components/blog-components/title/title";
+import Img from "@/components/blog/blog-components/img/img";
+import PageWrapper from "@/components/blog/blog-components/page-wrapper/page-wrapper";
+import P from "@/components/blog/blog-components/paragraph/paragraph";
+import H from "@/components/blog/blog-components/title/title";
 
 export default function AvtostopPoAfrikeMorokko2() {
   return (
