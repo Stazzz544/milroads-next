@@ -1,10 +1,10 @@
-import Slider from "@/components/main/main-page-sections/slider/slider";
+import Slider from "@/components/main/slider/slider";
 import styles from "./main.module.scss";
 import cs from "classnames";
 import AboutMe from "@/components/main/about-me/about-me";
-import ClassicTravel from "@/components/main/main-page-sections/travel/classic-travel";
-import UrbanTravel from "@/components/main/main-page-sections/travel/urban-travel";
-import TwoWheelTravel from "@/components/main/main-page-sections/travel/two-wheel-travel";
+import ClassicTravel from "@/components/main/travel-types/classic-travel";
+import UrbanTravel from "@/components/main/travel-types/urban-travel";
+import TwoWheelTravel from "@/components/main/travel-types/two-wheel-travel";
 
 export default function Main() {
   return (

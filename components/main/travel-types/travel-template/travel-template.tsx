@@ -40,9 +40,9 @@ export default function TravelTemplate({
           ))}
         </div>
         <div className={cs(styles["btn-wrapper"])}>
-          <button className={cs(styles["btn-btn"])}>
-            <Link href={link}>Смотреть весь раздел</Link>
-          </button>
+          <Link className={cs(styles["btn-btn"])} href={link}>
+            Смотреть весь раздел
+          </Link>
         </div>
       </Container>
     </div>
