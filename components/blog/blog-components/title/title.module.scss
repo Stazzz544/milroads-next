@@ -1,6 +1,21 @@
 .title {
   text-align: center;
   font-weight: 600;
-  font-size: 23px;
+  font-size: 30px;
   padding: 25px 0;
+  color: #ffffff;
+  letter-spacing: 5px;
+  position: relative;
+  font-family: "EB Garamond", serif;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    height: 2px;
+    width: 40px;
+    background: #ffffff;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }

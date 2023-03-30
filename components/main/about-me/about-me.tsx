@@ -1,5 +1,6 @@
 import cs from "classnames";
-import SectionElement from "./section-element/section-element";
+import SectionElement from "./section-element";
+
 import avatar from "./assets/avatar.jpg";
 
 export default function AboutMe() {

@@ -21,10 +21,7 @@ export default function Img({ src, description }: ImgProps) {
             height={1500}
             style={{
               objectFit: "contain",
-              position: "relative",
-              height: "auto",
-              maxHeight: 800,
-              width: "100%",
+              position: "static",
               borderRadius: 10,
             }}
             quality={100}

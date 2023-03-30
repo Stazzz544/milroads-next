@@ -1,0 +1,25 @@
+.link {
+  padding: 15px 0px;
+  line-height: 28px;
+  font-size: 25px;
+  color: #abe195;
+  letter-spacing: 2px;
+  transition: 0.3s all;
+  will-change: color;
+
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+.all {
+  padding: 0 8px 0 8px;
+}
+
+.left {
+  padding-left: 8px;
+}
+
+.right {
+  padding-right: 8px;
+}

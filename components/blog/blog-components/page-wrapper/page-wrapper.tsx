@@ -40,7 +40,9 @@ export default function PageWrapper({
         </div>
       </div>
 
-      <Container>{children}</Container>
+      <Container>
+        <div className={cs(styles["article-wrapper"])}> {children}</div>
+      </Container>
     </div>
   );
 }
