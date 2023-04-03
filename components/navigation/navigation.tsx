@@ -10,12 +10,15 @@ export default function Navigation() {
 
   return (
     <header className={cs(styles["header"])}>
-      <div className={cs(styles["logo-wrapper"])}>
-        <div className={cs(styles["svg-wrapper"])}>
-          <Image priority src={Logo} fill alt="LOGO" />
+      <Link href={"/"}>
+        <div className={cs(styles["logo-wrapper"])}>
+          <div className={cs(styles["svg-wrapper"])}>
+            <Image priority src={Logo} fill alt="LOGO" />
+          </div>
+
+          <h1 className={cs(styles["title"])}>Milroads</h1>
         </div>
-        <h1 className={cs(styles["title"])}>Milroads</h1>
-      </div>
+      </Link>
       <div
         onClick={() => setActive((prev) => !prev)}
         className={cs(styles["burger"], { [styles["active"]]: isActive })}
@@ -24,19 +27,6 @@ export default function Navigation() {
         <span className={cs(styles["burger-item"])}></span>
         <span className={cs(styles["burger-item"])}></span>
       </div>
-      {/* <nav className={cs(styles[''])}>
-        <ul className={cs(styles["link-wrapper"])}>
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/blog/morocco/2011-p-1">Morocco 1</Link>
-          </li>
-          <li>
-            <Link href="/blog/morocco/2011-p-2">Morocco 2</Link>
-          </li>
-        </ul>
-      </nav> */}
     </header>
   );
 }

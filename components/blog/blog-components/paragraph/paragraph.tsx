@@ -8,6 +8,8 @@ type PProps = {
   position?: "center" | "right" | "left";
   indent?: boolean;
   introduction?: boolean;
+  color?: "" | "green" | "red";
+  bold?: boolean;
 };
 
 export default function P({
@@ -16,13 +18,16 @@ export default function P({
   position = "left",
   introduction,
   indent = false,
+  color = "",
+  bold,
 }: PProps) {
   return (
     <h2
-      className={cs(styles["paragraph"], styles[position], {
+      className={cs(styles["paragraph"], styles[position], styles[color], {
         [styles["cursive"]]: cursive,
         [styles["indent"]]: indent,
         [styles["introduction"]]: introduction,
+        [styles["bold"]]: bold,
       })}
     >
       {children}

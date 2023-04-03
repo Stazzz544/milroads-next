@@ -9,11 +9,25 @@
   &:after {
     content: "";
     position: absolute;
-    top: 0;
+    height: 40px;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgb(8, 8, 8);
+    background: rgb(8, 8, 8);
+    background: rgb(8, 8, 8);
+    background: rgb(8, 8, 8);
+    background: rgb(8, 8, 8);
+    background: linear-gradient(
+      0deg,
+      rgba(8, 8, 8, 1) 1%,
+      rgba(8, 8, 8, 0.9444152661064426) 17%,
+      rgba(8, 8, 8, 0.835171568627451) 35%,
+      rgba(8, 8, 8, 0.5270483193277311) 54%,
+      rgba(8, 8, 8, 0) 84%,
+      rgba(8, 8, 8, 0) 100%,
+      rgba(8, 8, 8, 0.6727065826330532) 100%
+    );
     z-index: 2;
   }
 }

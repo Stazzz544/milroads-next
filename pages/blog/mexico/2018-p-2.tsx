@@ -4,7 +4,7 @@ import P from "@/components/blog/blog-components/paragraph/paragraph";
 import H from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
-export default function AvtostopPoAfrikeMorokko() {
+export default function Mexico() {
   const { title, description, img } = getArticleItems(4);
 
   return (
