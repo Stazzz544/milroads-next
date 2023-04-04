@@ -6,6 +6,6 @@ type HProps = {
   children: ReactNode;
 };
 
-export default function H({ children }: HProps) {
+export const H = ({ children }: HProps) => {
   return <h2 className={cs(styles["title"])}>{children}</h2>;
-}
+};

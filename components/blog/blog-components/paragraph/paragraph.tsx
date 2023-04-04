@@ -10,9 +10,10 @@ type PProps = {
   introduction?: boolean;
   color?: "" | "green" | "red";
   bold?: boolean;
+  as?: "span" | "p";
 };
 
-export default function P({
+export const P = ({
   children,
   cursive = false,
   position = "left",
@@ -20,17 +21,24 @@ export default function P({
   indent = false,
   color = "",
   bold,
-}: PProps) {
+  as = "p",
+}: PProps) => {
   return (
-    <h2
-      className={cs(styles["paragraph"], styles[position], styles[color], {
-        [styles["cursive"]]: cursive,
-        [styles["indent"]]: indent,
-        [styles["introduction"]]: introduction,
-        [styles["bold"]]: bold,
-      })}
+    <div
+      className={cs(
+        styles["paragraph"],
+        styles[position],
+        styles[color],
+        styles[as],
+        {
+          [styles["cursive"]]: cursive,
+          [styles["indent"]]: indent,
+          [styles["introduction"]]: introduction,
+          [styles["bold"]]: bold,
+        }
+      )}
     >
       {children}
-    </h2>
+    </div>
   );
-}
+};

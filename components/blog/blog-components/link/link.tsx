@@ -1,21 +1,22 @@
 import styles from "./link.module.scss";
 import cs from "classnames";
+import Link from "next/link";
 import { ReactNode } from "react";
 
-type HProps = {
+type AProps = {
   children: ReactNode;
   href: string;
   intend?: "left" | "right" | "all";
 };
 
-export default function A({ children, href, intend }: HProps) {
+export const A = ({ children, href, intend }: AProps) => {
   return (
-    <a
+    <Link
       href={href}
       target="_blank"
       className={cs(styles["link"], styles[intend || ""])}
     >
       {children}
-    </a>
+    </Link>
   );
-}
+};

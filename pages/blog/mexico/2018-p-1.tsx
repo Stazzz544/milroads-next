@@ -1,8 +1,8 @@
 import Img from "@/components/blog/blog-components/img/img";
-import A from "@/components/blog/blog-components/link/link";
+import { A } from "@/components/blog/blog-components/link/link";
 import PageWrapper from "@/components/blog/blog-components/page-wrapper/page-wrapper";
-import P from "@/components/blog/blog-components/paragraph/paragraph";
-import H from "@/components/blog/blog-components/title/title";
+import { P } from "@/components/blog/blog-components/paragraph/paragraph";
+import { H } from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
 export default function Mexico() {

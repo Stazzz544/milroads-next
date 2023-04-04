@@ -15,6 +15,7 @@ export default function Img({ src, description }: ImgProps) {
       <div className={cs(styles["img"])}>
         <PhotoView src={src}>
           <Image
+            referrerPolicy="no-referrer"
             alt={description || "IMG"}
             src={src}
             width={1500}

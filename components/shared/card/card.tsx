@@ -21,6 +21,7 @@ export default function Card({
     <div className={cs(styles["card-wrapper"], styles[height])}>
       <div className={cs(styles["card-content"])}>
         <Image
+          referrerPolicy="no-referrer"
           alt="image"
           src={img}
           fill

@@ -7,6 +7,8 @@ type Country = Array<
   | "Индия"
   | "ОАЭ"
   | "Мексика"
+  | "Франция"
+  | "Шри-Ланка"
 >;
 type TravelType = Array<"Классический" | "Двухколёсный" | "Урбан">;
 type Continent = Array<"Европа" | "Азия" | "Африка" | "Америка">;
@@ -89,5 +91,38 @@ export const scheme: Scheme[] = [
     travelType: ["Классический"],
     travelDate: "06.2018",
     articleLink: "/blog/mexico/2018-p-4",
+  },
+  {
+    id: 7,
+    title: "Один день в ОАЭ",
+    description: "Часть - 1 - Шарджа",
+    img: "https://lh3.googleusercontent.com/pw/AMWts8D8CVN_mHUSUnQB5Qapc8HVhoLa6Oh1_gZ8PrZ5stsAvfc6qQDlHrXNHuLVQw6rxwZlkKIM8GcdM8oc_gg222QVyKLt1NbZW9CQYegaqRVudfFMxctPUYYvZCz6tJX_aDCALgTOMQE9MC8J30AjviCa=w1250-h834-s-no?authuser=0",
+    countries: ["ОАЭ"],
+    continent: ["Азия"],
+    travelType: ["Классический"],
+    travelDate: "06.2018",
+    articleLink: "/blog/emirates/2018-p-1",
+  },
+  {
+    id: 8,
+    title: "Один день в ОАЭ",
+    description: "Часть - 2 - Дубай",
+    img: "https://lh3.googleusercontent.com/pw/AMWts8BfB8J4EGNYSmkiVjIxW0IZv2f7y3fQ0WQ_lebkLtNG7R5qTNPJzAa-PZV_DGAKjgvwCneNLj-jbT1Pf-GhQJBIRthNUR9rfZ9DxjrgdsZZYF7JNltE2nSmxJKJmNCqEQ90uKTxlMbSxrQKYShNq-2F=w1250-h791-s-no?authuser=0",
+    countries: ["ОАЭ"],
+    continent: ["Азия"],
+    travelType: ["Классический"],
+    travelDate: "06.2018",
+    articleLink: "/blog/emirates/2018-p-2",
+  },
+  {
+    id: 9,
+    title: "Один день в Париже",
+    description: "Под небом зимнего Парижа город будто обездвижен(с)",
+    img: "https://lh3.googleusercontent.com/pw/AMWts8AkEgELuMinIfoVV-9j5a_7r_Li_xB77DCamit9WqZnaplcGIQuShpjWCopHo54fZSEO3DBJH3jXLId_nBZz57G3rGbfINgZrSAaDBgczGLiMtW9vxtG6tmUnox93qUkCu1NDIfGzKQCd8hwi_ce03A=w1250-h834-s-no?authuser=0",
+    countries: ["Франция"],
+    continent: ["Европа"],
+    travelType: ["Классический"],
+    travelDate: "06.2018",
+    articleLink: "/blog/france/2018-p-1",
   },
 ];
