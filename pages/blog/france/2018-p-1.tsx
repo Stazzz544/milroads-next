@@ -6,10 +6,8 @@ import { P } from "@/components/blog/blog-components/paragraph/paragraph";
 import { H } from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
-export default function Mexico() {
+export default function France() {
   const { title, description, img } = getArticleItems(9);
-
-  //!!!! НУЖНЫ ССЫЛКИ НА ПАРИЖ И ШРИ ЛАНКУ
 
   return (
     <>
@@ -24,7 +22,11 @@ export default function Mexico() {
         <List
           title="Перейти к отчету по:"
           listLinksItems={[
-            { href: "", text: "Шри-Ланке", color: "green" },
+            {
+              href: "/blog/sri-lanka/2018-p-1",
+              text: "Шри-Ланке",
+              color: "green",
+            },
             {
               href: "/blog/emirates/2018-p-1",
               text: "ОАЭ",
