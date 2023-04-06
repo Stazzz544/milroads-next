@@ -7,12 +7,15 @@ import "react-photo-view/dist/react-photo-view.css";
 type ImgProps = {
   src: string;
   description?: string;
+  verticalImg?: boolean;
 };
 
-export default function Img({ src, description }: ImgProps) {
+export default function Img({ src, description, verticalImg }: ImgProps) {
   return (
     <div className={cs(styles["wrapper"])}>
-      <div className={cs(styles["img"])}>
+      <div
+        className={cs(styles["img"], { [styles["vertical-img"]]: verticalImg })}
+      >
         <PhotoView src={src}>
           <Image
             referrerPolicy="no-referrer"

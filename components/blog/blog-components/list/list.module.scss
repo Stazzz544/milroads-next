@@ -1,6 +1,10 @@
+.list-wrapper {
+  padding: 20px 0;
+}
+
 .title-wrapper {
-  h2 {
-    padding-bottom: 3px;
+  div {
+    padding: 0 0 3px 0;
   }
 }
 
@@ -9,7 +13,7 @@
 }
 
 .item-wrapper {
-  h2 {
+  div {
     padding: 4px;
   }
 }
