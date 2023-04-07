@@ -382,17 +382,7 @@ export default function AvtostopPoAfrikeMorokkoP3() {
           ))) И я достал фотоаппарат, чтобы на остатках аккумулятора записать
           его выступление!
         </P>
-        <IframeVideoContainer>
-          <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/embed/B0ceg9mlTlY"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </IframeVideoContainer>
+        <IframeVideoContainer src="https://www.youtube.com/embed/B0ceg9mlTlY" />
         <P>
           {" "}
           Очень рекомендую посмотреть это видео, оно заряжает позитивом на очень
