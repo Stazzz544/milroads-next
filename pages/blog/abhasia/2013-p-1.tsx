@@ -4,24 +4,24 @@ import { P } from "@/components/blog/blog-components/paragraph/paragraph";
 import { H } from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
-export default function AvtostopPoAfrikeMorokko() {
+export default function Abhasia2013Mountains() {
   const { title, description, img } = getArticleItems(16);
 
   return (
     <>
       <PageWrapper src={img} title={title} part={description}>
         <H>Пролог</H>
-        <P indent>
+        <P>
           Лето 2013 года. Подходило время отпуска, дата была назначена на
           середину августа. Планов, никаких не было, но душа просила
           приключений.
         </P>
-        <P indent>
+        <P>
           Изначально была мысль махнуть на Алтай, но из-за дороговизны билетов и
           ещё некоторых моментов от него пришлось отказаться, но появилась
           отличная альтернатива — Абхазия!
         </P>
-        <P indent>
+        <P>
           Горная часть Абхазии — Национальный парк Рица — просто создан для
           пешего туризма, первооткрывательства и поиска приключений на пятую и
           другие точки — именно то, что мне было нужно :)Когда об этой идее
@@ -29,13 +29,13 @@ export default function AvtostopPoAfrikeMorokko() {
           собой, обещала держаться молодцом, вытерпеть все испытания и тому
           подобное.
         </P>
-        <P indent>
+        <P>
           За неделю до поездки я начал прорабатывать маршрут, отметил интересные
           места, которые высмотрел на Викимапии и других источниках, и проложил
           путь в горы по гугл картам, использую 3D ландшафтный плагин, но всё
           оказалось немного суровее чем я ожидал :)
         </P>
-        <P indent>
+        <P>
           Из Петербурга до Адлера мы добрались на поезде за 2 дня, там, чтобы не
           теряться и скорее достичь границы с Абхазией мы взяли такси за 200р и
           довольно быстро (30мин.) доехали до погран зоны. Граница
@@ -57,7 +57,7 @@ export default function AvtostopPoAfrikeMorokko() {
           поворота на котором нас высадила маршрутка… Деваться было не куда,
           спорить с милицией не хотелось.
         </P>
-        <P indent>
+        <P>
           Полицейский любезно отвёз нас к участку. Прямо около отделения милиции
           была маленькая кафешка… мы не смогли отказать себе в
           свежеприготовленных пельмешках и бокале вина за, в какой-то степени,
@@ -452,7 +452,7 @@ export default function AvtostopPoAfrikeMorokko() {
         />
         <H>День пятый</H>
         <P introduction>«Кто я и где я»…</P>
-        <P indent>Тут мы проснулись</P>
+        <P>Тут мы проснулись</P>
         <Img
           description=""
           src="https://lh3.googleusercontent.com/pw/AMWts8CPuIYw3E547gxZSu_GmXYk109W4vwg9h5dDSJllX2IhMnhQ3puzRk-IHe-hP1wB1095s9caqiva1rTvP8PcQ4miGoxrl8oc1hvJtGVnYBY_hgbpzu6flisWTqxYqIMy45ef-bs3eQgWDP4rUPwWMJ8=w1200-h800-s-no?authuser=0"

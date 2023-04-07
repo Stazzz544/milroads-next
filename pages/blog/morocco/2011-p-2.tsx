@@ -4,14 +4,14 @@ import { P } from "@/components/blog/blog-components/paragraph/paragraph";
 import { H } from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
-export default function AvtostopPoAfrikeMorokko2() {
+export default function AvtostopPoAfrikeMorokkoP2() {
   const { title, description, img } = getArticleItems(2);
 
   return (
     <>
       <PageWrapper src={img} title={title} part={description}>
         <H>Марракеш — Эссуэйра</H>
-        <P indent>
+        <P>
           {`Проснулись мы рано утром и сразу же отправились в кафе, чтобы
           позавтракать и подконнектиться к местному вай-фаю. Честно говоря в
           этот момент я ещё не знал куда именно мы поедем и даже примерного

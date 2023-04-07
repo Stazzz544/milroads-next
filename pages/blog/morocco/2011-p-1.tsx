@@ -4,7 +4,7 @@ import { P } from "@/components/blog/blog-components/paragraph/paragraph";
 import { H } from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
-export default function AvtostopPoAfrikeMorokko() {
+export default function AvtostopPoAfrikeMorokkoP1() {
   const { title, description, img } = getArticleItems(1);
 
   return (
@@ -15,7 +15,7 @@ export default function AvtostopPoAfrikeMorokko() {
           спасибо Бутымовой Ольге!
         </P>
         <H>Предыстория</H>
-        <P indent>
+        <P>
           {`Шел ноябрь 2011 года. Курс доллара был около 30 с небольшим, евро
           около 40 рублей. Душа просила приключений и путешествий. На тот момент
           мой опыт путешествий был, мягко говоря, скромный. Однажды вечером, в
@@ -52,7 +52,7 @@ export default function AvtostopPoAfrikeMorokko() {
           description="Кафе возле аэропорта в г. Тампере"
           src="https://lh3.googleusercontent.com/IqQ35QBZBLwoTBU-yxrQgjRgaEk6tprLlvWnYyI-KHyJ3D_qwF9ngSWDfx4EOF9s7_fml8r7W480uaGU-G23EZLSk8lxRzNJNYDDa16rM8BW3bPqLpffVsXk6pYMHfEo0LBQz7xSh7OvxPUHPYrmO7qrOup7kcR9C4SqtSG7iTLkhY0TAcVUbV5ixXnJqHClxjCNQjhu_A30UBNMlpP0pORLio-Emu9EiL3vrCLvchNQ99D2YOFbQ_qYdwFqljhlf6Tiv4v3AW2XE4S_GP_S_fs28Pj12mZfu5ehhGVyacXjgmfyOulOD9yJaWRqoP8qDdmd3p5i0eUcZPn82I_APTeXdetNCmm4Dhkx17mO1_9xAhm6Rlr0XjNgcyJyt5FTKcTJEkoY74tfQuG75Z1tq4t-E6ayaZoNjMumYp0Q4RZmo02KwJOMEX7osAmw5XHUzZqDknvW9xXC0StLlYAEVXQonwfo-zPbBTRJYzhuIr4a9xfSXJ9CS4A36n2xWUdDjPM1Gj9p9Lk75Epzyb0KZ-ZlQd8CiFGUh8u9-L2dX3zqipLYLrKTD96Qx_Tk-1evwwT40XFB5ew7aiX8GYIvB17vDMdAgwj62UhBgSJ6PuYo_CZecR3bNoSP_Y820Xl7eocr8LfpYiBiiWxNGdsDaaI8GfL5AfwgOuqQfBWy_Jkl0N56Y_E5X_tytErS6efAnCN2yami64VQTfCF9yHoTPuNhnwDuhHtavbjXmand4KG_q0A3pRZjaNXapa4uYc4aitP_jBTsBlgxgaA3ly7CDhvvr7Pj-pAA2BrpK90bQBJcjeKgcomPyA_T-qV6GrN_Raj5Q3zp0ak8GTPUvcDp1_mim4VOZqci5_rjMvmQDNKevv_rTT85DKS2ozc8fTgUq8YIijH0x1fZ-edrQ4RwgidLNTQz8Dsp-clfvP7UCqXRuYc=w1292-h969-s-no?authuser=0"
         />
-        <P indent>
+        <P>
           Как я уже писал ранее — перелёт состоял из двух этапов. Сначала из
           Тампере(Финляндия) в Франкфурт на Майне(Германия), затем из Франкфурта
           в Марракеш(Марокко).
@@ -62,7 +62,7 @@ export default function AvtostopPoAfrikeMorokko() {
           src="https://lh3.googleusercontent.com/wy0OcRd_BAFdKEJYNvs1QSlpcwyVIf0SqScijRxVfA6u9NHZ9B5Itt8UmYaaZlVATg5ob0Z4LwxMU5_sEGG6g9RN4zq-v31hj1VjLVbRw4NYRae5Jn6OoMIbd9FaTTz0ROi4eDiaS3yNSyaWIAtBQgKQ124igu50WTDaYl9oCO857zO96xgTZyzgB65YJ5oKRYEJmDFCYuD19KNvS8nbxDlFSFRn9wwvPLEpkAHhbUiRZem9tJ7wx0vHPo9IAgUTuP7oBZ5WXZUiM2R-WYzDvqzqWPM81-XrrhA6lhz0Onm8UzGNfXPtDpUBprmviMKv32T480JDgYiQMfwZ0P-DjUIi7iTwJP_OPgMDLBkCOICRG8fGjmuQwUZCozsTMgMgQ7Fj9iAAiuHzhbJL68qHxnEcGZbQWeu1YY4WCNIHW9s3T0Fm9Tj5QZPtuNX0rBTnKyg8VM-aC4Ftf8eMMfNijDB6HD3hbVx9y1Ul3LPr0aIZ1lYCD99u2PP9uQBeiFBneRAoafLhXsYtGnhE_Bno7YkKGb_97Y9RICU-OKXMKFKbsS8RwasODhGs_Vvw7XvCrI6lVACGhB-hotH2O1YBnIEyu39Uqm2b2pDSMza-yv7NojB4KTJ7JPsfUGnEr0a9Q6cBXiw__WUsE5bg33iohccCpV--wp54jSE7VyUuIqTO5a6SsOQLQpf5TuiCR3Arlp1YIuXkalXXD7PGUeQGeUvVNo_9Bd8iMw-lXFHM_NXDasu4XyCxnwW7_WI9Do7OUAjFL6gU8y9iQUO666faV0_KsOdGqhZ5yXc7nSMadQd4WxJJoxdPAiPAP8mvil9oDiPAeo3-WL0fF5P32PtdZvUJUxBiIGh5hxH3PjTVhtRO0ocf8FPPd16ldYa9260oCe6-XImbq-FOnIW7Xth32A8K9DI9gXVwUYAdwTTxZfQ0OAig=w1292-h969-s-no?authuser=0"
         />
         <H>Марокко</H>
-        <P indent>
+        <P>
           Из-за вечернего вылета из Тампере и длительной пересадки в Франкфурте
           в Марракеш мы прилетели только ранним утром. Королевство Марокко
           встретило нас горячим и сухим ветром в лицо едва мы покинули наш
@@ -72,7 +72,7 @@ export default function AvtostopPoAfrikeMorokko() {
           description="Аэропорт Марракеша «Менара»"
           src="https://lh3.googleusercontent.com/uIuoGP_IDPBLkdM7VUth4_KXtVxNFBrH046GQSaY7KfEKn-npATzyLx5tdJyZ4Jd7oHwH_tFn7SDwnQuYq7l8jQMyqcXK-i_5QVq-ZqRq0JruVe3uAJqJ8fHU_AESORk3Ha0OZuwjUB680cQc03-TFvmBXsCpJnG3WnBJTuD4GshYdE-S528R13oV1Btz1C1IkY04VTrFt4QJcdIGST3LVZ3y-vnSf90kOUSMv0OOhFnlNJllXhy-WCLvVVkwz509u9Bo0U3Ukesv1xpoqsKfkbELdoqB4isTS3-NZ2pR81fktCByJOxZQBrKD4MPEO80HDnqSHNbaDckpPjBnaKb9MJKPmnPwolGTjROY5wNpKzu_5jEwqZn25T3pVvwf8RY6eSrjswd47TXwRaPuH3jXTGs-BH08dl4hZOc7_TkHUJRxsFkbwWAOyHygvB4xu75BAwrFRxeZoyMQj4jnROM1GMptasGNZcBto2V4cbk1TrFR403RDz7PTFrrEyBfAjNsi4_Fe9Uj-RtM5Rpz5ag7xA9zqVUV8b0x-oLb7SAPyyZpKPaD7mTcJjYNDO4OTwz5-iyGph486we9QydiTctHW7AreiTGAPl9XH9SE_-Biy7WbkkamC1OXJs2azX-moTHiOmGGfTltM4KdH7fXBy7Y0v2FJocktCMj1bnAvFysFR1qvp2XEIAakYM9KVxMej_ZwG7vSZMEWXdK5KzyFPfCvrMLcTYWq_N1NGhUOrI8Rh92ZAydy5aaXR95XSuyGw75mxzShRqpyMLyJAcYzuQ4SY3VR7WmGnBmki5iAWwLFlkZVzQsiyqOR3eRHeTFXfPosTBjoEE4Oh5R1t8YlHJE-7JKhGu6CJHjTmO5JSQIm4_3XrKTr658o3qX6hNi47noI12dX7WNWqvuu5W1-JXX5CU9eD1-yZIADwh71XoQaGUQQ=w1292-h969-s-no?authuser=0"
         />
-        <P indent>
+        <P>
           {`Аэропорт в Марокко довольно простой и незамысловатый. Там же для
           граждан России ставят бесплатную визу по прилёту. Единственное, что
           мне запомнилось — это то, что во время прохождения таможни служба
@@ -89,7 +89,7 @@ export default function AvtostopPoAfrikeMorokko() {
           description="Возле аэропорта Марракеша «Менара»"
           src="https://lh3.googleusercontent.com/pb8_TmESt5A86jKgACa1c981eE1B947G6OfJyEa8Xf4-tHro91WwJfUgcijWU5VclyzBMwMbjckEXePhzY7rvNU8qpWWzCXG8dVqw6PK6WpAWMGNZjcRr_I4VQ1KRMrXhZut8IwgzQOdHs9lq5ca0J60KugcKbYgsUvccQGpUj9-yUsjCn3B2_fpT-qxuW0BtaLxDk-3sYE62oflXTWThTQayBFGPalgm673FPrJROPeee1llipt_sc2XAjK69r8Z9P3l3_LtJpk2xYhBxTB13jtFlrrx1-pQ_gigwuPwKdFleRbbIej0bafVpgcWgrH1wPkpyX7mjR34u1nLN1DqaF_jyu6EA7ekcazn6I2vQap6-QReakSk3sKclYKudtF6Hyufhoqdo9GR2v13n6t2rFTTQlfsA86ISCsG8DgUxliIQk0vSUVhE_bslxURCR7fY6VgCXlk-xBWjes99fF74m0zTIkO00bduYHF8JuD4FgQq7HH6IvnHHpuX2JkCYlfrM3yiOvvDzghGXYOQqrt6Gxfb2jlwZ79LfYzbZBLeCJT0BBw9-BVi3Vfi0vuK1tPvfHD0R-3DRKlvNOZsixWIfzXBb_5jPHEQM4mD_C4mN43mU_OZyKCONxt4UaPAsldcAonsJl99fjca1XBWHaZUnZG5ovWf-A8pUxSYNQnYYd3IJVwuExgNlIIKSpd7lx1MNtHaCtBYyNQQAPTB3NZCbllFWVPcmLaUO7iMNguqnazGR4g8cVlvEm3brhRaZGDq5KKuto3U3WdkVumIaCBXCcLBF_oWm0qcAgud0vS97l34rps8pRtG1teb4frrdFkx9xQ2VNJye1S2CWiwq1QCxpZqNa3IJw9TmRagC_Ij10RICo8u3mF9tDUULqvEqyw168RnFy4QjXW2zZl2aDWQYDogGfUw6f2JZRk7YXFddcWxmF=w1320-h969-s-no?authuser=0"
         />
-        <P indent>
+        <P>
           Получив первое впечатление от экзотической страны мы с Олей потопали в
           сторону города. Пока мы просто шли по тротуару внимание со стороны
           местного населения к нам росло с непреодолимой силой. Нам махали
@@ -105,7 +105,7 @@ export default function AvtostopPoAfrikeMorokko() {
           description="Вот эта машинка, которая привезла нас на центральную площадь Марракеша."
           src="https://lh3.googleusercontent.com/GAYJQVd-QFCGRCEZoeyYUI2ajsbfSnczv0YPCSt1qHE-68df9EPfdgK9FbS6AW5XSQ1duwNBPwUxll9mPZsP-8lmvh1DKRj_FE40LNuWnV0R0_t-JhNZ3Jui-xFtArAVTIr99Fb6ysyoa7An_2628DBHENlZhExsxgMlEObDgI1CL5SQnQ_Qu4Dj8MtXynuEbsX2T6Sx4sJHGI7UgAltA9sWFKrKcH1Ky_lB756_kCbYi_rdIlusZKCOJsbnN7z2Z2RLZqRi1-r6rGa2DPLSZDWSiCmTo-XeN0_N1QsrdpdS_n5Zuzv7zeA7e8q4sA3RHjsZfVUdrgLd9c0YfNtwdeEXPiHqbs7f_FwmGo3GwckUObQFeq0FUBlzj6OgkS99_C9ahiv9IzyT4fY40Dio5IrkrMd-gCmm5-qauFXkalFNZm3G7gslADRQrBRp4ZX2tWWw6Rpoaj6ND8giqDE6TrRx4qPFgCLhFugimhNKK5IdlD9GAEANE8yvIITceJLKWQzcELH1wESKXkMSs56xHOc4aGKvs05m0aRPVlZL5vqJ6PbhcVM8PA4Q_rj3rD3fjHgESfbSIt-F_txVMJZMBvslGe2TIbh3-H88NxWVf16eide69HZ1BZx02cV33vqS9WVeyIataJE3y-eybpRaIPfiP9oHwYe_JTK2eDa_xQC8yyPZm3LglwOAz_G2ofuimFzGePw_vL_Rpfd3SND8BsPlPz8XEFaXDwjxxUYuDXhzjhk8eRMGji7H_Bq4exK1gbp4jLIwcU68WKsfgP5vgwdDBk6Co3CJp_hyK0GpDka4K8Aq0kly_SuS-SKwAgl2MAxNGPdM8vKnqMB4ddRJoiNK4V_75hvTAD0Z_BI_sZIjiFzSCf7O4FczsrB1PxTwibDvdeW5gumooHR5qbtTNJeofLM9L6gg0FhnaRuEmapuzXo3=w1527-h969-s-no?authuser=0"
         />
-        <P indent>
+        <P>
           Площадь Джемаа аль-Фна — самая большая площадь в городе Марракеш,
           Марокко, одна из главных достопримечательностей города. С 2001 года
           площадь вместе со всем историческим центром Марракеша была включена в
@@ -119,7 +119,7 @@ export default function AvtostopPoAfrikeMorokko() {
           description=""
           src="https://lh3.googleusercontent.com/UjO5LbSXe-gTIYSQ6U21mW5dtkX-QH4Z3Spjyqo5T-l-hIGx84aHJqr52dwdki39nxm44_NmF7tyUanSiipu9SSEi16JaTLFTs8Z0W00GgX7KeAFlVKYn1g6JmJmJj8rDRdT2x2AxE_IRTPIq8tPtBnpk8xN_cYn-FO9PbBlDCSTC8mW5yLQrE18sPotwk1yynqBvhSsPmPP-rKCV7GDg5mb0I9bUJ59KXQBtnS4g-DK_OE4YVy3Uc5WiHmlbeHFRWUTacT0BW5pikQReH3txeg6jweRhs82j7-omqGHGC3BxbVfpk2R2ynCh4bGehiSeYz32-nbQPmlJdHP8lhhk_fyY7JAuMC6TKD_OHKi2EytE1klndUlytaQyPoE9PS_IK5IjmbreczokfWcbZ5VTt3PgXeDrGElznCJLm8-Z9DeqcyaJBoYPU2zHI7D1m2gseEiuU-xMOgt_SQu7kjU7Hc_IIpr8BUm-QI9avWvhzIa6HYp97QNqXrkPCyjZC-euDuBCcm3yorZuMSez-tlJ1mcLHGtjIIDbozir4KhjvMgxaU_wPnZLZRriFBSpkucLL95C2xb2k9eJykGiVHPATDU4Q1TPIhmcxL2Li4BplZ8TqtLU54k7NX98mNm7xvuxHhI83h13j678M_MWkalrIQlrA4RlhzuCysZPXTa2r38yUxl9_jUt6XYcgjQyzKV8jrPqTQ3KYSVwNGYcDGA6eMzzl57gQ4HIqnchZvLuGp-jvFwMsyav5oRcuRiRtDowiyfxFQMPucwn-ENPDyuveBzC6SISDQBDfMGFAT8o4imIGt50T8TrGLZmkRc7hILRp3dvYiohnGYLDU8jmnRFxXfwFzyD6MdTe0WukIXAWeWm7P69Q-4JBKT9T4-Qgy7uRcS2p1QhZZF0nyhod4M6KSonNfUvW1O87xLMUpaAnqRZ3Eu=w727-h969-s-no?authuser=0"
         />
-        <P indent>
+        <P>
           Побродив немного по площади к нам подошел какой-то местный и начал нас
           любезно распрашивать кто мы и откуда. Через несколько минут разговора
           он спросил, не хотим ли мы прогуляться с ним по центру, типа он нам
@@ -147,7 +147,7 @@ export default function AvtostopPoAfrikeMorokko() {
           description="Внутренние дворы Марракеша"
           src="https://lh3.googleusercontent.com/ODOevyYVyTElEZ2-ytGsdFPaoFG-td_-ZLt7_tzINRAiM8H-3GuDcQJZDdBsggaux3LYBPh_Zds0LpTIOGQ1YVGRx7k97VR2CqiqIoYC5snM_qpTcj1N1uxiFUne4o869gCM3RGWyn3HMSQ6yhh1KEjQn51mFBM7i81utdhmPtqY9ml8Yr1Iukof1EKq7zvL49y3ungUcMS5fSSAS3oGHm_jw5G_UhwWXDZOEtRHelCsnbvDg-cji3nBPUd0hgFOPWBrWoVdTXZ5c7QV0S9sDWSsvjgDujWlpR-njgIwjLfRopJIR3ZJBjvVOY63wcjqyBvijOXCnC8ig5YeUO97g8Ux3lpSm-fkQa2Zck21X0wuCAZgDTdF6uraS5kURyea-OAhuI9nq0FVLF7kuoAYkla341fepAy_GupoDQXH9tbLs0gTD3WqAnhbAfLasq9ier5jg4ACEUhhU3NhzLUfpcd1B7t1osL2PCWcglkBRNxJjrvGIcEnJy4YW8SvfQ5WlO0r1ipuYAdXap0cjfOM5PNQS15vIrFq8rCWd_wB8MbwKRtmU7mPAYh1Dzj0m6FNSXK61kz95v9J_98hjHmuBQliMXUcnX0Vnaey1cpNOjZSwidb1rGuPEyfuFigF8w1xEtlqbUjYX848dYY8zsla-dbYxYSug5uBDfqdP7ffdD-8lHkA-2ZesLzahZC_5-Jn1wDCkX1MTZHMZBp0jEhX9ESlEEQzBhuyg5VIUS1_AM1ToGXq8MSxigDVQxcmaXXxmyNvqFh8beEbc0R_E8jx2ZLXH_lvr4H5RlGm2Qxsr2mixxqjB4-xZx0TPhDO7LGgu3rESG_WgdHDsltuf0yV-zgnlhskjh9poJ8XVXN1a-A7kuh92i6SrEmvyIw_-uRHnIa-QKzJ-GYfujT-iAQ5w8gexy34zkK1g2dX7KQHij63uf-=w1292-h969-s-no?authuser=0"
         />
-        <P indent>
+        <P>
           Именно в таких вот местах и ведётся массовое кустарное производство
           всех сувениров, которые можно встретить на рынке
         </P>
@@ -166,7 +166,7 @@ export default function AvtostopPoAfrikeMorokko() {
           description="Туристический рынок Марракеш"
           src="https://lh3.googleusercontent.com/BYC0ZnvStrsfeGcb2tKmRRazG28klPM2r-Fkftcm9bZ8KajaPt2I7CsQD7ukXQd_ZIK6AgL9Pr3lQH6WppUk7SrqwVcb32YaK0Uqfv3E6_thwu1Z4q8IHJPfn9yDp0z0WwyxtDm7t3KJvVv_gej-KyuovzZCyO8rQxpx6-ARR3OnAR91AtJfcwij24t5B8dVMhcCug8bKrTzcjjpQ8TSTk3hOXPrhTqYHSdgU0VarXIVozVrx5pNi9RpasbIhYz-KoGkii9vhM0S1kNVm_3AZ-J0xKhOtwR2L8CjLQ487Ktif19oA_sr6WPdMK7LLqDFI3JQvTd5TYRTqM-LRhGz7PswjW9-SeTQ0Saczmvz4vJ0QDzPSfZYMN4QJWxcJO-hj3yK1rgM1Tm3fmexDaUJdpy-hbN_sPZW205kyhlAcR8vkmlfxO9XtKwTBsMSJNWUC3a4-Ech_4ZzjuUiZ_UDQRy02fI1IzBuWUZ2wpqyV5jwUy_Dk2FqAIR7VjXDHTSCmQeQhGLO-YyUSTC_tc2OfjrdqOIeeTEALG5KAjrSktRq53UdM6L_eTRdITy0CykOsilt6hhbr_RSmTi74aWGgJV2_kpYw3-W8pLe2kw34xJJWiJwicrjKNa-oWVRgK4u0KLjuVj1NPrh346m08MSVJzXrgBIzB5LoSo8umsDZEFGcEgO7htvW_PZD1Xe2j9Ah610Yg9qCUNYfpaCVURxZqtgn0K5shL1V-BINbAHwmJ4_-HNAENBJadpcPsb69SAP-Kpvb40gyrPeY23L2EEWOUCAG8S0HcxhHnMiWvDLZcTo7Uag_Qm2GCA5oTnXC8oWt4cXCtvGEhYDzIvQj0QT-NaaBb1DT3smvYG9Qes-FoFHTdCX5-rUtN-34qZ6fD_IVMKQYFRDEN8X7BHEFq5hSt-QHUIxRb1yvyQ7D9VtuVQJ8Ps=w1292-h969-s-no?authuser=0"
         />
-        <P indent>
+        <P>
           Закончили мы прогулку на той же самой площади где и познакомились. Но
           тут случился ещё один разрыв шаблона. В самом начале, перед прогулкой
           мы уточняли бесплатны ли эти погуляшки и говорили, что у нас нет
@@ -208,7 +208,7 @@ export default function AvtostopPoAfrikeMorokko() {
           description="Древняя городская стена, Марракеш"
           src="https://lh3.googleusercontent.com/qSotY8Ac2C5MqboHlfRTvK7U39nI3Ri5xGRqlDUPv1ddj4hjji7LCUKrxbQYbXQiHXM_Vg2Pbc_mPeJdoBM_rAMhgPau3VyI2J3dKLW3Efi5PV6_mxgW-iunBAF7RxFvoReAb-rnPupylJqUHU3iXQFguTP_DaKNctaC_NSim-yrz1vECaVuP43Ml081wfLTybjY3-5XrTBQXe8GT5Ozj8EnuXCfsOmFLH-d2Dt1pV-0jPH51TpoJjEvQjfVn7kOUg0KVU_aSpNbwwCV-CS5Tg28PrITNi2bsAMEudRoER6PrYA1wuB7KDVxj49BLCdlJCYmBX9KlncYrhV26Ddq5KvMWbe-n8g-vExyw43H_BZd8-ynNlrmwFl4_fZQEq94VWZPxULIAX1PrSTa1nnrMcNa5IkjuqF3Sl0ZJdjLsuMhfIZJJ3i5rhAfyOszd2c_r-uWe2zb_dXe5lfFJDpn8NXkBMOquRK6k22wF3ZOtm_YnxLxAwDKLms3f0whFgd60yfsNnq-xOheGRXxZXUzOMY2K4yq_0qHlLHPB-Akop_M_svoNMF0YkG5--GXEB9t9kcA3sReJmK3bS78b7JiHQOnnyADBG1Gi7YMK61Nwnk3S-n831H9zxcEFEloNCGi6n24tQCK0vfv1RyL9-wZ2XD4UZAEOkDOjdhmXVhrXf3Zhj6wBGxbkYKvVlBsB9u73HcUoBZY5h3l7zsEJLinQl4Ih4LYr7qlz3lRdD_lj6ZjHBi3ere52HBAejfzOMjCuOP2ViSCp9AMgaXOw_rEVkUURpzJAqyIjelEOD5BpnU-lAwvKglFHWKqz-cjju-07LNm5YqgSFhEqpqAUCSizgK64M0B6c-ImauLmtxuQysvDGTi2fEj2qGNxTxiH4JaN9If8LzgNIu03zcFjwHZPKka0CEbUknwiGU-u8sjXLGQPMxb=w1292-h969-s-no?authuser=0"
         />
-        <P indent>
+        <P>
           Выйдя за границы Медины, так называют исторический центр в
           Марокканских городах, мы набрели на очень приятную парковую зону,
           которая располагается прямо у городской стены.
@@ -230,7 +230,7 @@ export default function AvtostopPoAfrikeMorokko() {
           description=""
           src="https://lh3.googleusercontent.com/tcsH4CjjqVugFSJe61idh9E0TzPS6TTdvO8CzopZreRpYkemp7xJ7cRv-48dmCCrmTSTSVVtWPFKorjsWb5wuNnVyRvbO-guQ9SLvH5pslWgdYwJW7ZmkCSnYqJE6gTlPnCR9OL_Ric0ex0zRjw_wyWkHN1AfftKOPBcP2fmHlGtcmQBqBR2kvaAnXLA1CzTyb4rQ6reCK7I-rKB3RoXz_NoL5B7ipdI3vrSD7qhHtyWL7lpFyvkmpGboDP1WRlkGKPxWzXpSUL2RM9HXJM1FIBA7g1zstuuL9lc8p4Uw6wqTSaBIyXQm71WS8ON7koyCzNKxAKBZ6eBcUDFawEeCdVIG1T_vOtqwVWV9UWLT755vLkuGcn8xN1G0QHLtv5D1sYR67mAyz3T1eac59xVzg_IDLY8zcxelpBrdKM3yLtxIiJCsUD1EzPrxoBNx9oImggLh0WKK7MpvFPJJvaIJXzJTZUkVlhjJdiUk8VrMGTZTD8xSMjOUazXsSWqED4PWyinPGIzzJoMf50-V-_877x8XxE0hqYG9XB2VEJ8vqooviwQSMVsYCcu2JcPS7KPY4y2YVG5jMIQ-EennGXK5ogYKoY0acJhIDN7yYp4Dh9geIuH_S2N17feI_4s3nbQ6cIOU3xYqTHrmpxpujzw6uOIX5P7F0fgUKzEB9OPgbd3FbK_l_RaZKxP8Sy9y0coUv0gz_eMAxSZpMADFLMyUSFl390-SPeRGm_0n-H1tOeUGkzu5ttGJlxY2elPFkpqUU-1whV6I701w_cc1iD8IWqRSRMaVkr5QqTgDNUHm3u4u5chWsKkog2hfn0oyqYycS4BQPY_wWwSjvwiV-gJ9xU3g9CbIBf9otsVelSc-31j8MCYVR-pI7dl_ofzBURDuPTi3zYk98bcWLk-ALsL5NmPoO__sl98Xt0gLXNJIZdyjaOv=w1292-h969-s-no?authuser=0"
         />
-        <P indent>
+        <P>
           Прямо на старинной городской стене кипела обычная житейская бытовуха.
           Сушили бельё, что-то выясняли, ходили взад-вперед…
         </P>
@@ -264,7 +264,7 @@ export default function AvtostopPoAfrikeMorokko() {
           description=""
           src="https://lh3.googleusercontent.com/jHhrxNc6ktyJ8DBbeZL0HSskSK2kLby3KRVL0uQZ4JL54B73LnpHy5ObT9dHRnM_LDzJ4QExKW_2B8Q9la550P7l8lZLBXTSRCmX15ZM1d4-OgHMSACUo936PlIOzNuyyDtloEpYZ-CSA10upqFT4rIY2tIUEpSJvo6zXaah0gAOae9l4SVkckH5rBZ7Fdb0l7LY-GJ6zcSxdDLQA6HPj9q89s8C43KiyQMHG2o-yVwd4HtifH-66hHdYBNDhzkyEQoUCsJJeG9rh_Hzrugi-wFdkI_zgM2lOeDl2LHGRE9hKWTLoAoizBYNBCd81uc1pXYt8fj-lmEJHfG8qTcbpDQFVgrS2JgvGUCNjPLr3CC0xPLbuGrq1b-hwaechb8u4S4r9R2bHOmrroHUJFuATv7fdtWE7zxfqiOtTqUzQz3higPTtRKxTqe4jUeMV2gKp9UG1OIGLhATiKBXXQFluLUmTn4WKp9Rk4Fep_udVUTGksxvZL1-gJcuwo9A56OiD8OWQ7uEkQHDuw8t1ZpaM8OkpA6j5gpPd8DoqzVhFQttzpBVlpsleO8ZTq6xKrQQ6RB47uhvtT5wh12LikukRsiJP7DL23l5JSWYrAG2NlAf1UXnW2rOK6iEfWYuD4qMu-Zq37tjQfg8LvxGVqmmXLfCD9g5ehrfCaANxE1aD_fbAxHUwUje-5NVBtu6bhe5MmFZlf_lDdIgFc5yR896jgGwNNGIbx8opI3sw9NAB68BhnQQf0N4GCY9N3pgCLtcQSrMP9ULa-tfDD8bqzLAJHIICPuezYoTAIkw7XWSf7GN0r15jkpdMmk-G2Puj028LPCldmXCxVsPJma4kq3pDYLiqHNheOtmTBW6QDwlFw38ICRhAJKVJHGhbyXy5Yp1XS-C-iW2kFWeib9pW2QCLqrZ8sO902uTz3_6l7fcOEn7DNxN=w1292-h969-s-no?authuser=0"
         />
-        <P indent>
+        <P>
           {`Пока мы дожидались наших новых друзей я заказал себе шаверму и
           авокадовый сок. Шаверма оказалась вполне обычной, а вот авокадовый сок
           удивил меня очень сильно…. Раньше я не бывал в южных странах и сок в

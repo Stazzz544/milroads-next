@@ -5,14 +5,14 @@ import { P } from "@/components/blog/blog-components/paragraph/paragraph";
 import { H } from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
-export default function Mexico() {
+export default function Mexico2018p4() {
   const { title, description, img } = getArticleItems(6);
 
   return (
     <>
       <PageWrapper src={img} title={title} part={description}>
         <H>Канкун</H>
-        <P indent>
+        <P>
           На четвертый день нашего пребывания в Мексике исторические
           достопримечательности подошли к концу. Конечно на Юкатане еще полно
           древних городов, но они либо очень далеко, либо не очень интересные, а

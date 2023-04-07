@@ -4,14 +4,14 @@ import { P } from "@/components/blog/blog-components/paragraph/paragraph";
 import { H } from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
-export default function Mexico() {
+export default function Mexico2018p3() {
   const { title, description, img } = getArticleItems(5);
 
   return (
     <>
       <PageWrapper src={img} title={title} part={description}>
         <H>Ушмаль</H>
-        <P indent>
+        <P>
           Подъём этим утром был самым ранним за всё время путешествие по
           Мексике, а перегон на машине за один день — самым большим. Проснулись
           мы по будильнику в 5 утра, быстро покушали, собрались и выдвинулись к

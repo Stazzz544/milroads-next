@@ -6,7 +6,7 @@ import { P } from "@/components/blog/blog-components/paragraph/paragraph";
 import { H } from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
-export default function SriLanka() {
+export default function SriLanka2018P3() {
   const { title, description, img } = getArticleItems(12);
 
   return (

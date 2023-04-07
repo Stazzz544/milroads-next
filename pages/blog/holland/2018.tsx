@@ -6,14 +6,14 @@ import { P } from "@/components/blog/blog-components/paragraph/paragraph";
 import { H } from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
-export default function SriLanka() {
+export default function NaPolDnyavAmsterdam() {
   const { title, description, img } = getArticleItems(15);
 
   return (
     <>
       <PageWrapper src={img} title={title} part={description}>
         <H>Пролог</H>
-        <P indent>
+        <P>
           Этот отчёт является завершающей частью большой поездки{" "}
           <A intend="all" href="/blog/france/2018-p-1">
             <P as="span" color="green">

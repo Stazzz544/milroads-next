@@ -5,7 +5,7 @@ import { P } from "@/components/blog/blog-components/paragraph/paragraph";
 import { H } from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
-export default function Emirates() {
+export default function Emirates2018p1() {
   const { title, description, img } = getArticleItems(7);
 
   //!!!! НУЖНЫ ССЫЛКИ НА ПАРИЖ И ШРИ ЛАНКУ
@@ -14,7 +14,7 @@ export default function Emirates() {
     <>
       <PageWrapper src={img} title={title} part={description}>
         <H>Пролог</H>
-        <P indent>
+        <P>
           <>
             Путешествие по Объединенным Арабским Эмиратам — это лишь малая часть
             большой поездки. К этому моменту мы с Олей уже посетили

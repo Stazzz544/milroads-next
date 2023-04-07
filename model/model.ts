@@ -225,5 +225,15 @@ export const scheme: Scheme[] = [
     travelDate: "08.2013",
     articleLink: "/blog/abhasia/2013-p-2",
   },
-  //19
+  {
+    id: 19,
+    title: "Индия на поездах, Дели",
+    description: "2016 ",
+    img: "https://lh3.googleusercontent.com/pw/AMWts8A8W70WOsoAZEc5iYLLEHiAaHXurGpQPdDgH4dpnwzlWVkO4jWZe1wAvN3GBydXuAcp0Us0BO62iiXYzVtCbjJ0nzxA7Jqxf1Cm0IAvU7sUGYQERhWghPgMqm4Plj3T3uRGyX-1KpO2URAUdhxJQ3iO=w1200-h801-s-no?authuser=0",
+    countries: ["Индия"],
+    continent: ["Азия"],
+    travelType: ["Классический"],
+    travelDate: "08.2016",
+    articleLink: "/blog/india/2016-p-1",
+  },
 ];

@@ -5,14 +5,14 @@ import { P } from "@/components/blog/blog-components/paragraph/paragraph";
 import { H } from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
-export default function Mexico() {
+export default function Mexico2018p1() {
   const { title, description, img } = getArticleItems(3);
 
   return (
     <>
       <PageWrapper src={img} title={title} part={description}>
         <H>Пролог</H>
-        <P indent>
+        <P>
           {`В один из тёплых майских дней на сайте`}
           <A intend="all" href="https://ru.pirates.travel/">
             «Пираты России»
@@ -64,7 +64,7 @@ export default function Mexico() {
           src="https://lh3.googleusercontent.com/pw/AMWts8CvLzYjDM8NtrSwmOglAsYbtjvRkDkkCJoLc6poZ7Hu_beO9r2PnFUJo-aWN2IM2hs-8DGetX0NlS9eqsFHi595WmBlqdwWK6uc9gtZVQIA4z3QexF3bwWPi_dp2S8yzuoysdDux51p-aIrYOh6rLp8=w1250-h834-s-no?authuser=0"
         />
         <H>Тулум</H>
-        <P indent>
+        <P>
           Наступило утро второго дня в Мексике. Сегодня нас ждала большая
           культурная программа, но перед этим нужно было забрать машину, так как
           ближайшая интересующая нас достопримечательность находилась в 70-ти

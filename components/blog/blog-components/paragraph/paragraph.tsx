@@ -18,7 +18,7 @@ export const P = ({
   cursive = false,
   position = "left",
   introduction,
-  indent = false,
+  indent = true,
   color = "",
   bold,
   as = "p",

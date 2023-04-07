@@ -5,7 +5,7 @@ import { P } from "@/components/blog/blog-components/paragraph/paragraph";
 import { H } from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
-export default function Emirates() {
+export default function Emirates2018p2() {
   const { title, description, img } = getArticleItems(8);
 
   return (

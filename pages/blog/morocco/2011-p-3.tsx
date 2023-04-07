@@ -1,17 +1,18 @@
+import { IframeVideoContainer } from "@/components/blog/blog-components/iframe-video-container/iframe-video-container";
 import Img from "@/components/blog/blog-components/img/img";
 import PageWrapper from "@/components/blog/blog-components/page-wrapper/page-wrapper";
 import { P } from "@/components/blog/blog-components/paragraph/paragraph";
 import { H } from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
-export default function AvtostopPoAfrikeMorokko3() {
+export default function AvtostopPoAfrikeMorokkoP3() {
   const { title, description, img } = getArticleItems(18);
 
   return (
     <>
       <PageWrapper src={img} title={title} part={description}>
         <H>Эссуэйра</H>
-        <P indent>
+        <P>
           В предыдущей части я рассказал о том, что наши новые друзья вернули
           нас обратно в Эссуэйру. Мы договорились, что они ненадолго отлучатся
           по рабочим делам и после мы созвонимся для продолжения совместного
@@ -381,7 +382,7 @@ export default function AvtostopPoAfrikeMorokko3() {
           ))) И я достал фотоаппарат, чтобы на остатках аккумулятора записать
           его выступление!
         </P>
-        <div style={{ height: "80vh", width: "80%", margin: "auto" }}>
+        <IframeVideoContainer>
           <iframe
             width="100%"
             height="100%"
@@ -391,7 +392,7 @@ export default function AvtostopPoAfrikeMorokko3() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
-        </div>
+        </IframeVideoContainer>
         <P>
           {" "}
           Очень рекомендую посмотреть это видео, оно заряжает позитивом на очень

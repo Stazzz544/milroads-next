@@ -6,14 +6,14 @@ import { P } from "@/components/blog/blog-components/paragraph/paragraph";
 import { H } from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
-export default function SriLanka() {
+export default function SriLanka2018P1() {
   const { title, description, img } = getArticleItems(10);
 
   return (
     <>
       <PageWrapper src={img} title={title} part={description}>
         <H>Пролог</H>
-        <P indent>
+        <P>
           Этот отчет является частью насыщенной поездки из четырех стран:
           Франции, Шри-Ланки, ОАЭ и Голландии. Для быстрой навигации между
           странами в этой поездки можно воспользоваться ссылками ниже:

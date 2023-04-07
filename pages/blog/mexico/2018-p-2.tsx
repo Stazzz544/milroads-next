@@ -4,14 +4,14 @@ import { P } from "@/components/blog/blog-components/paragraph/paragraph";
 import { H } from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
-export default function Mexico() {
+export default function Mexico2018p2() {
   const { title, description, img } = getArticleItems(4);
 
   return (
     <>
       <PageWrapper src={img} title={title} part={description}>
         <H>Чичен-Ица</H>
-        <P indent>
+        <P>
           Подъём был ранним, солнце еще не взошло, а телефон показывал 5:30
           утра. Мы с Олей быстро позавтракали курицей, которая частично осталось
           с ужина, собрали вещи и пошли к нашему автомобилю. Путь до древней

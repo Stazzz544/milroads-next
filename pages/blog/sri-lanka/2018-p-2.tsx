@@ -6,13 +6,13 @@ import { P } from "@/components/blog/blog-components/paragraph/paragraph";
 import { H } from "@/components/blog/blog-components/title/title";
 import { getArticleItems } from "@/utils/getArticleItems";
 
-export default function SriLanka() {
+export default function SriLanka2018P2() {
   const { title, description, img } = getArticleItems(11);
 
   return (
     <>
       <PageWrapper src={img} title={title} part={description}>
-        <P indent>
+        <P>
           Предыдущую часть отчета об этой поездке можно прочитать перейдя по
           этой
           <A href="/blog/sri-lanka/2018-p-1" intend="left">
