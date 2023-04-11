@@ -17,3 +17,20 @@
     padding: 4px;
   }
 }
+
+.disc {
+  padding: 0 40px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 13px;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #fdcea0;
+    border-radius: 50%;
+    background-color: #fdcea0;
+  }
+}

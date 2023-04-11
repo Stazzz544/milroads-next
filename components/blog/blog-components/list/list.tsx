@@ -14,6 +14,7 @@ type ListProps = {
   titleColor?: "" | "green" | "red";
   listItems?: string[];
   listLinksItems?: ListLinksItems[];
+  disc?: boolean;
 };
 
 export default function List({
@@ -21,19 +22,25 @@ export default function List({
   title,
   titleColor,
   listLinksItems,
+  disc,
 }: ListProps) {
   return (
     <div className={cs(styles["list-wrapper"])}>
       <div className={cs(styles["title-wrapper"])}>
-        <P color={titleColor}>{title}</P>
+        <P indent={false} color={titleColor}>
+          {title}
+        </P>
       </div>
 
       <div className={cs(styles["items-wrapper"])}>
         {listItems &&
           listItems.length > 0 &&
           listItems.map((listItem, i) => (
-            <div key={i} className={cs(styles["item-wrapper"])}>
-              <P>{listItem}</P>
+            <div
+              key={i}
+              className={cs(styles["item-wrapper"], { [styles["disc"]]: disc })}
+            >
+              <P indent={false}>{listItem}</P>
             </div>
           ))}
 
@@ -41,7 +48,7 @@ export default function List({
           listLinksItems.length > 0 &&
           listLinksItems.map(({ href, color, text }, i) => (
             <div key={i} className={cs(styles["item-wrapper"])}>
-              <P color={color}>
+              <P indent={false} color={color}>
                 <A href={href}>{text}</A>
               </P>
             </div>
