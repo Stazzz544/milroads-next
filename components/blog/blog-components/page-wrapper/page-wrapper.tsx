@@ -3,12 +3,13 @@ import styles from "./page-wrapper.module.scss";
 import cs from "classnames";
 import { ReactNode } from "react";
 import Container from "../container/container";
+import { replaceWithBr } from "@/utils/replace-with-br";
 
 type PageWrapperProps = {
   src: string;
   title: string;
   children: ReactNode;
-  part?: string;
+  part: string;
 };
 
 export default function PageWrapper({
@@ -35,7 +36,12 @@ export default function PageWrapper({
         <div className={cs(styles["title-wrapper"])}>
           <Container>
             <h1 className={cs(styles["title"])}>{title}</h1>
-            <h2 className={cs(styles["subtitle"])}>{part}</h2>
+            <h2
+              className={cs(styles["subtitle"])}
+              dangerouslySetInnerHTML={{
+                __html: replaceWithBr(part),
+              }}
+            ></h2>
           </Container>
         </div>
       </div>

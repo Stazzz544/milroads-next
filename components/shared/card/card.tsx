@@ -1,3 +1,4 @@
+import { replaceWithBr } from "@/utils/replace-with-br";
 import styles from "./card.module.scss";
 import cs from "classnames";
 import Image from "next/image";
@@ -40,7 +41,12 @@ export default function Card({
           </h2>
           <p className={cs(styles["location-location"])}>{title}</p>
           <div className={cs(styles["location-divider"])}></div>
-          <p className={cs(styles["location-description"])}>{description}</p>
+          <p
+            className={cs(styles["location-description"])}
+            dangerouslySetInnerHTML={{
+              __html: replaceWithBr(description),
+            }}
+          ></p>
         </div>
       </div>
     </div>
