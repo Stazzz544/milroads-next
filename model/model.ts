@@ -14,6 +14,7 @@ type Country = Array<
   | "Финляндия"
   | "Швеция"
   | "Польша"
+  | "Италия"
 >;
 type TravelType = Array<"Классический" | "Двухколёсный" | "Урбан">;
 type Continent = Array<"Европа" | "Азия" | "Африка" | "Америка">;
@@ -389,7 +390,7 @@ export const scheme: Scheme[] = [
     description: "часть - 1",
     img: "https://lh3.googleusercontent.com/pw/AJFCJaXZxp0MEytWuP8bv9PQcu5p8EgWW5Dy2EjrvsK95pWmM4GrcedHvFbmipUidlk6O1cBQsDv_JcyuYQazcLxe_PwjgV5JD5cJn0Mqgp46tMrhhV3Ypkki6bcHvGtNketW_EFiyrUzx7JYusL72qfjkaI=w1200-h699-s-no?authuser=0",
     countries: ["Швеция", "Финляндия"],
-    continent: ["Азия"],
+    continent: ["Европа"],
     travelType: ["Классический"],
     travelDate: "01.2015",
     articleLink: "/blog/sweden/2015-p-1",
@@ -400,7 +401,7 @@ export const scheme: Scheme[] = [
     description: "часть - 2",
     img: "https://lh3.googleusercontent.com/pw/AJFCJaVfJ3WRqc9xPvQaxjqnAqc12uHpqnmofRDPjXqae2VbaAFkHypTfo0WZ84lU_aYrpEufBpAWa_qNryPFC0NL4j02YbTRLnOOjkSVWCOe3nEEbwvVGUsgTxHE5tVG9--uJU_sI2K995FLkGb4a_Omb9O=w1200-h801-s-no?authuser=0",
     countries: ["Швеция"],
-    continent: ["Азия"],
+    continent: ["Европа"],
     travelType: ["Классический"],
     travelDate: "01.2015",
     articleLink: "/blog/sweden/2015-p-2",
@@ -411,7 +412,7 @@ export const scheme: Scheme[] = [
     description: "часть - 3",
     img: "https://lh3.googleusercontent.com/pw/AJFCJaXa5nUhNJSXzvI71B4sfrOUzCo-8AJZ9pYBpMWwfRKbGZ91Kds6c1IkDsMuZUOpeJdzWRuBbZEOVbHNcb1DEz-uIPGvjBcG7Ghm1O7m8C_S7gE2isWBPcK6ekvBksdr1Qa6ESvssmV39J2zuhPddeRl=w1200-h801-s-no?authuser=0",
     countries: ["Швеция"],
-    continent: ["Азия"],
+    continent: ["Европа"],
     travelType: ["Классический"],
     travelDate: "01.2015",
     articleLink: "/blog/estonia/2015-p-3",
@@ -422,7 +423,7 @@ export const scheme: Scheme[] = [
     description: "часть - 1\nБрест, Краков",
     img: "https://lh3.googleusercontent.com/pw/AJFCJaXE7Svcv1fx9T5Gs7qr2k6tFoR3Q0ndgBTJelVQOwKaJkDC32pcedN48l_oCapOY1HKc_A4SG2Rd2_Jq0DnB2FC9BBC0Pmd96uy_ZJ2pI3SLxJcrugtDMt-3wTDdg9pRYUDTKoiYxBaxjzBoTGCFf03=w958-h634-s-no?authuser=0",
     countries: ["Польша"],
-    continent: ["Азия"],
+    continent: ["Европа"],
     travelType: ["Классический"],
     travelDate: "03.2014",
     articleLink: "/blog/poland/2014-p-1",
@@ -433,9 +434,20 @@ export const scheme: Scheme[] = [
     description: "часть - 2\nВеличка, Высокие татры",
     img: "https://lh3.googleusercontent.com/pw/AJFCJaWMbqJoGvUrDJKEIbiU9W4TCbmHvS6cjbJ7WABkKwEmod1sXblydo3CdiX8smCuvfz35wBqROZYXpdoXks0ZNL3SzHty_5P_Ui0-2yvl1BssTSOk5IAoNxjsvbmjEf__ULDAsKPgc5Qnj6IcAaolEHh=w958-h634-s-no?authuser=0",
     countries: ["Польша"],
-    continent: ["Азия"],
+    continent: ["Европа"],
     travelType: ["Классический"],
     travelDate: "03.2014",
     articleLink: "/blog/poland/2014-p-2",
+  },
+  {
+    id: 38,
+    title: "Италия, пицца и паста трип",
+    description: "часть - 1\nМилан",
+    img: "https://lh3.googleusercontent.com/pw/AJFCJaVEr_0mmvtRUawbIQzEeqtsnycnhIjG-ssjwLrmOgve6e3wsSwXY4Y7lrHEOaQVRV8NrV5yOxFEI531B6oPtkHC7Ss-4ydw-fjQ_WlofDSbZ7ZOxummoizyVt-w8S76hdg0_m05dvolahYi_E8YUH_v=w1250-h833-s-no?authuser=0",
+    countries: ["Италия"],
+    continent: ["Европа"],
+    travelType: ["Классический"],
+    travelDate: "03.2014",
+    articleLink: "/blog/italy/2013-p-1",
   },
 ];
