@@ -44,12 +44,10 @@ export default function Italy2013Milan() {
           src="https://lh3.googleusercontent.com/pw/AJFCJaXUH4nb7WVl2KRdeJpLCS04f-P8o9CYDtmJ_ZKyb_OmD4fMT1isvEjVFjpikXA_exOshay65mQpibe5PKYXq2c6TkTym-LnkcwDSZAxL5AC4VZE7e8mK1Xspn34IKzqAbjdQ7uUyNEQT-hT5QEeg79f=w646-h969-s-no?authuser=0"
         />
         <P>
-          {" "}
           Но Милан — это не только современная роскошь, но и богатое наследие
           эпохи Средневековья и Ренессанса.
         </P>
         <P>
-          {" "}
           Единственный в Европе беломраморный готический собор строился
           несколько веков: первые блоки и фундамент храма заложили в 1386 году
           при легендарном правителе Джан Галеаццо Висконти, а проект фасада,
@@ -65,7 +63,6 @@ export default function Italy2013Milan() {
           src="https://lh3.googleusercontent.com/pw/AJFCJaXiZS5yISA_MlUBK6uuFp6_9FsuqRIIz3-ptHU1_3Oun7bri2LRlaulpRmJdh2ckj58McXcBuoqovVgnnd3gTYRS3-IxeBf1DWWoOtZb0RHWJpdRj3rv7vR3vRijNm_l1FvkZmbLuOUK4L7HrvqmwvY=w1250-h833-s-no?authuser=0"
         />
         <P>
-          {" "}
           Пламенеющая готика. Много маленьких острых деталей…очень кропотливая
           работа.
         </P>
@@ -74,7 +71,6 @@ export default function Italy2013Milan() {
           src="https://lh3.googleusercontent.com/pw/AJFCJaXLSYUzxksAz75sQPV82wFmviRU0UjFa9CW4JtDohdMw7G0JCE14d4JzwOuWsIw0i-pZjwuRJ03OZFxL1fo3taTyeBPXPkbc2edAHAkKIbUfK23o1gmFnx5A3bix-tKQcRE23yj4kaknjnYjD6Wcb0F=w1250-h833-s-no?authuser=0"
         />
         <P>
-          {" "}
           По периметру на множестве шпилей возвышаются статуи, устремляющие свои
           взгляды в даль. Эта например смотрит на какое-то очень стрёмное
           здание, которое выглядит как заброшенное. На самом деле — это башня
@@ -85,7 +81,6 @@ export default function Italy2013Milan() {
           src="https://lh3.googleusercontent.com/pw/AJFCJaVEvB3PWYyilGatROlmLsxIo1UY6ftIkcJpchSRNIFVhJUYuu8Jwu_9qgr4WBV5CELXDpXNcqxDEywDeC3Snt9N5pNPq6CT634OPFjnEi3wJKpPUuhIEIMbTb-IUtOnM7Fb9n_92E3bVAhZVDqDZH-H=w1250-h833-s-no?authuser=0"
         />
         <P>
-          {" "}
           С крыши собора отлично просматриваются современные небоскрёбы. В той
           части города мы, к сожалению не были, но я уверен, что по славной
           европейской традиции, на какой-то из них можно подняться за небольшую
@@ -96,7 +91,6 @@ export default function Italy2013Milan() {
           src="https://lh3.googleusercontent.com/pw/AJFCJaXv4n9KvAM2kbcBBih4OFQMfoTahMNhIrd-hT-BCTFZmEZk1HOitGZSfd29p2w8HMQSLYpbrGzqPa_kB38ZipPtqbrFS0ItC10yiVXlrzINXlHltahM2sSsyrbG1B2QN6AonpmiFqsotYDU4A9SBBok=w1250-h833-s-no?authuser=0"
         />
         <P>
-          {" "}
           А эта площадь находиться прямо напротив главного входа в собор. Тут
           всегда многолюдно, а в здании напротив есть Макдак=)
         </P>
@@ -105,7 +99,6 @@ export default function Italy2013Milan() {
           src="https://lh3.googleusercontent.com/pw/AJFCJaUaL07ugnPShbWt5VAB2BUjESGnSwAeu3tJ_y4sFL60_X3v7HcRzaGmpx5S-eyOm8JhYMJF7G6oaiptWNUyAxSUIVxlTTVJvveTncumlmvAnL812xYuCNbDikkKjvctZveOGq0tx6MC1wHwPFqFrxpV=w1250-h833-s-no?authuser=0"
         />
         <P>
-          {" "}
           Далее мы отправились в галерею Виктора Эммануила. Что-то типа одного
           из многих питерских ТРК, только выглядит круче и дороже, Милан жеж…
         </P>
@@ -114,7 +107,6 @@ export default function Italy2013Milan() {
           src="https://lh3.googleusercontent.com/pw/AJFCJaWGUuXu9hTq6GbyRnCrGHk5P_fLB3Bc4XuY1b9U8lD3u9BmEIImYcSGgRtnJSAFaqwkKk_SMYw75SVVb8yNqPCCofqgWssewAs7MCQXE8uO7jF6IUXY7Blm-cPzSTu9AoDlW4VUSd_8DgxAFqcxjctR=w1250-h833-s-no?authuser=0"
         />
         <P>
-          {" "}
           В апреле тут настоящая весна, на улице очень тепло, можно смело ходить
           в футболке днём, но вечером лучше немного утеплится, ветровка вполне
           подойдёт. Кстати в Питере в это время ещё лежит снег, хотя температура
@@ -125,7 +117,6 @@ export default function Italy2013Milan() {
           src="https://lh3.googleusercontent.com/pw/AJFCJaUq99sS-IpQ6IHXaFCRV3VkJPV90IuXUx5Xo4t89Edkv2R3MT33oRS68tjAOBhESsxrc-7ogf_d-QwUcPdF8voIDhvkKwCQLLucpY8HYLEV6ZR5VXUANjSPBOhs8m05LiNlqAkN-zGPrgFVyKnYETH5=w1250-h833-s-no?authuser=0"
         />
         <P>
-          {" "}
           Одной из главных достопримечательностей Милана является замок Сфорца.
           В арке этого замка мы застряли в человеческой пробке из участников
           музыкального оркестра, которые, почему-то решили остановиться именно
@@ -141,7 +132,6 @@ export default function Italy2013Milan() {
           src="https://lh3.googleusercontent.com/pw/AJFCJaUld6ADxf9oeCtBimMS5XOBV_vusa8Zqrtgd786OToDI-vaX2wgOUpx1ZMb0YsnLrtXs-zW6TYP_2Ol_H-tqFde4lPL7WTmem56djl6pgSWCIx3Mp1dqePsHeiyDiVVNPGhSp3KDsdYpJuMeY82YWEu=w1250-h833-s-no?authuser=0"
         />
         <P>
-          {" "}
           Совсем рядом с замком есть замечательный парк, вообще в Италии мне
           понравились все парки в которых я был, потому что в отличии от наших
           парков тут всегда происходит какая-то движуха, плюсом ко всему в
@@ -177,7 +167,6 @@ export default function Italy2013Milan() {
           src="https://lh3.googleusercontent.com/pw/AJFCJaVYb4ks3rgjQnLxOkw7TNcrzICFNh3Sgyu5uj_hdfWQ4Qeh81WP_yioAfIP4AF1P9Z2FdqIoq7soVv2O0jCYOBAiKAhaOiqq-u-ChnCWX1ITsAOXeUB3r5IAoB3_mlzXuaCFAUO5WsmIB4tPLSKM74h=w1250-h833-s-no?authuser=0"
         />
         <P>
-          {" "}
           Дальше мы поехали на какую -то торговую улицу, которая находится по
           обеим сторонам канала. Отправились мы туда на скоростном трамвае.
         </P>
@@ -190,7 +179,6 @@ export default function Italy2013Milan() {
           src="https://lh3.googleusercontent.com/pw/AJFCJaXCDnomUnJNP7yzuJ4OdhulvKo3YOS2n78taSompQddwtdWIni_4FvJCP9QlZi9_Uutmfhp-fuP3rAptRO3qIAQxSpLXg3SadrXBYSGagg6dSB8ThIDiU_MEBZQAx52jIeLykMuCAkbcVMXRS6jt0J4=w1250-h833-s-no?authuser=0"
         />
         <P>
-          {" "}
           В этот день был какой-то праздник,поэтому народу было как на параде)
         </P>
         <Img
@@ -198,7 +186,6 @@ export default function Italy2013Milan() {
           src="https://lh3.googleusercontent.com/pw/AJFCJaWNQSUqHEfCIuERyIndOZr4O1fIkWyomTQTjw5jDKXPbtX8VzNW8OlwPKzEAuRfPRsJD08Rh3nuYImhFxiKCKZncNR_00Qh7BoWGB3tw7ChpAzHQo7e1ErzQ-d3vGGAJsoCqKfplhqB6nOy2vXuzNl0=w1250-h833-s-no?authuser=0"
         />
         <P>
-          {" "}
           Потолкавшись немного в толпе мы наткнулись на магазин ностальгии, кто
           смотрел фильм «Полночь в Париже» — тот поймёт, кто не смотрел —
           рекомендую..
@@ -208,7 +195,6 @@ export default function Italy2013Milan() {
           src="https://lh3.googleusercontent.com/pw/AJFCJaXY9xtkR0R5wPWkHZZFVxtTZ6Vr0-D6a_yrFMYqBz8DxbR3UIwTXUHEZeW5DICnARzL8bnbxtLoQr04-_5RFprwsRUFWvAhfaRkN_5SC6XgYonvKFNf58B0ES4n6C7WGayuFSTLXwPimOhD6iSHYcn2=w1250-h833-s-no?authuser=0"
         />
         <P>
-          {" "}
           В основном тут собран хлам из ушедшей эпохи, но при этом можно найти
           довольно интересные вещи… винтажные и нестареющие….
         </P>
@@ -226,7 +212,6 @@ export default function Italy2013Milan() {
           src="https://lh3.googleusercontent.com/pw/AJFCJaXR7U50Z3AhM-BsrTefw3fxOOetfHuSwfGGOWvAxewxSu8htmG8oCzb_Wqm1DNe5psuQzx4Ey2BLKujfapw-4s1Sv1Sx3P98FEVUQvSTd0bjZQHNGHQZB7gbw6df-xAkuVTOxWR4_yJM4IdTPHKpzYy=w1250-h833-s-no?authuser=0"
         />
         <P>
-          {" "}
           Выйдя из магазина ностальгии очень скоро мы наткнулись на какую-то
           выставку, тут вообще было много чего странного и непонятного…
         </P>
@@ -264,7 +249,6 @@ export default function Italy2013Milan() {
           src="https://lh3.googleusercontent.com/pw/AJFCJaVAStKSRm9eR3iWocE-dI5hZqDq4g0LFGcMDL9aZC8mBlY15htcK9JFxfoqVJz_eP8BaweZhvxPCRJ_jumdDwD-mXgZKriLSn6Gm8VNjRX9HQvTVftT98m4TZj2TSGFa7jGylOytelPB-ukiIjCtlor=w1250-h833-s-no?authuser=0"
         />
         <P>
-          {" "}
           А тем временем нужно было ехать дальше…Для перемещения по Италии мы
           выбрали скоростные поезда. Они совсем бесшумные, в каждом кресле есть
           по несколько розеток и самое главное — Free wifi!
@@ -282,13 +266,11 @@ export default function Italy2013Milan() {
           src="https://lh3.googleusercontent.com/pw/AJFCJaUUr2rRFtOA0mDs6XgIyNk8IodNk6PLNl5rBvMd2b_eiYlaBrUaNHzziUpy5_LrwkwcbrBT1l_iXUcYtIJtek6bzwl68ZiNoyFLh70ilDqwZB5xaMhtoVrSVCzEdQofIigR7Vbhu4Zl6t0xoGix5QFN=w1250-h833-s-no?authuser=0"
         />
         <P>
-          {" "}
           Поездка из Милана в Флоренцию занимает всего несколько часов, на пути
           встретятся несколько довольно длинных тоннелей и очень красивые поля,
           на подъезде к Тоскане….
         </P>
         <P>
-          {" "}
           В следующей статье я расскажу о Флоренции, её соборах и духе эпохи
           Возрождения.
         </P>
