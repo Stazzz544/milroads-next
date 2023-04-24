@@ -10,7 +10,7 @@ export default function Italy2013Firenze() {
 
   return (
     <>
-      <PageWrapper src={img} title={title} part={description}>
+      <PageWrapp src={img} title={title} part={description}>
         <P>
           Ни для кого не секрет, что столицей католического христианства
           является Ватикан. Центром этого маленького государства находится обой
@@ -145,7 +145,7 @@ export default function Italy2013Firenze() {
           встать пораньше=)
         </P>
         <P> ….End</P>
-      </PageWrapper>
+      </PageWrapp
     </>
   );
 }
